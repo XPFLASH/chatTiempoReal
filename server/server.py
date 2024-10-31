@@ -1,21 +1,32 @@
 #pylint:disable=all
 
-from flask import Flask, request, jsonify, session, redirect, url_for
+from flask import Flask, request, jsonify, session
 from flask_cors import CORS
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
+from flask_jwt_extended import (
+    JWTManager, create_access_token, create_refresh_token, 
+    jwt_required, get_jwt_identity, set_refresh_cookies, unset_jwt_cookies
+)
+from datetime import timedelta
 
 app = Flask(__name__)
 
-
 app.config['SECRET_KEY'] = 'ssf2lg2019'
+app.config['JWT_SECRET_KEY'] = 'mi_secreto_jwt'  # Cambiar por un secreto seguro en producción
+app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=1)  # Expiración del token de acceso
+app.config['JWT_REFRESH_TOKEN_EXPIRES'] = timedelta(minutes=2)    # Expiración del token de renovación
 
+# Inicializar JWTManager y CORS
+jwt = JWTManager(app)
 CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}}, supports_credentials=True)
 
+# Configuración de MongoDB
 client = MongoClient('mongodb+srv://al20760258:nQ2e40ebnmSbOEEQ@clusterchat.t1aju.mongodb.net/chatDB')
 db = client['chatDB']
 users_collection = db['usuarios']
 
+# Ruta para registrar usuarios
 @app.route('/register', methods=['POST'])
 def register():
     data = request.json
@@ -35,6 +46,7 @@ def register():
 
     return jsonify({"message": "Usuario registrado exitosamente"}), 201
 
+# Ruta de autenticación (login)
 @app.route('/login', methods=['POST'])
 def login():
     data = request.json
@@ -45,22 +57,40 @@ def login():
     if not user or not check_password_hash(user['password'], password):
         return jsonify({"message": "Correo o contraseña incorrectos"}), 401
 
-    session['user_id'] = str(user['_id'])
-    session['user_name'] = user['name']
-    return jsonify({"message": "Inicio de sesión exitoso", "user": user['name']}), 200
+    # Crear tokens de acceso y de renovación
+    access_token = create_access_token(identity={'name': user['name'], 'email': user['email']})
+    refresh_token = create_refresh_token(identity={'name': user['name'], 'email': user['email']})
 
-@app.route('/logout', methods=['GET'])
-def logout():
-    session.pop('user_id', None)
-    session.pop('user_name', None)
-    return jsonify({"message": "Sesión cerrada exitosamente"}), 200
+    response = jsonify({"message": "Inicio de sesión exitoso", "access_token": access_token})
+    set_refresh_cookies(response, refresh_token)
 
+    return response, 200
+
+# Ruta protegida
 @app.route('/protected', methods=['GET'])
+@jwt_required()
 def protected_route():
-    if 'user_id' in session:
-        return jsonify({"message": f"Bienvenido, {session['user_name']}! Esta es una ruta protegida."}), 200
-    return jsonify({"message": "No autorizado. Inicie sesión para acceder."}), 401
+    current_user = get_jwt_identity()
+    return jsonify({"message": f"Bienvenido, {current_user['name']}! Esta es una ruta protegida."}), 200
 
+# Ruta para la renovación de tokens
+@app.route('/refresh', methods=['POST'])
+@jwt_required(refresh=True)
+def refresh():
+    current_user = get_jwt_identity()
+    new_access_token = create_access_token(identity=current_user)
+
+    response = jsonify({'message': 'Token renovado', 'access_token': new_access_token})
+    return response, 200
+
+# Ruta para cerrar sesión
+@app.route('/logout', methods=['POST'])
+def logout():
+    response = jsonify({"message": "Sesión cerrada exitosamente"})
+    unset_jwt_cookies(response)
+    return response, 200
+
+# Ruta de inicio
 @app.route('/')
 def home():
     return "Conectado a MongoDB Atlas exitosamente"
