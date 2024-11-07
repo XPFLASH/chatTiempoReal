@@ -31,10 +31,14 @@ const register = () => {
 
         resetCampos();
         alert(data.message);
-      } else {
-        resetCampos();
-        alert(data.message);
       }
+      else if (response.status === 429) {
+        alert("Has excedido el límite de solicitudes de registro. Intenta de nuevo más tarde.");
+      } 
+      else {
+        resetCampos();
+        alert(data.message || "Ocurrió un error en el registro.");
+      } 
     } catch (error) {
       console.error('Error al registrar usuario:', error);
       alert('Hubo un error al registrar el usuario');

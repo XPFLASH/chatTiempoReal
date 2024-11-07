@@ -27,12 +27,14 @@ const Login = () => {
       const data = await response.json();
 
       if (response.ok) {
-        // Guardar el token de acceso en localStorage
+        
         localStorage.setItem('access_token', data.access_token);
+        localStorage.setItem('refresh_token', data.refresh_token);
+
         alert(data.message);
         navigate('/home');
       } else {
-        alert(data.message);
+        setError(data.message || 'Error al iniciar sesión');
       }
     } catch (error) {
       setError('Error al conectar con el servidor');
