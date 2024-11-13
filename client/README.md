@@ -1,8 +1,11 @@
-# React + Vite
+# Chat-Tiempo-Real FrontEnd
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código del frontend de la aplicación de chat en tiempo real. La aplicación permite a los usuarios comunicarse en salas de chat compartidas mediante una interfaz moderna e intuitiva, con notificaciones en tiempo real.
 
-Currently, two official plugins are available:
+## Tecnologías y herramientas utilizadas
+### Frameworks
+**React**: Elegido debido a su capacidad de manejar estados dinámicos y su facilidad para crear componentes reutilizables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Autenticación y Seguridad
+**JWT (JSON Web Token)**: Utilizado para manejar la autenticación de usuarios de forma segura y sin estado. Cada usuario recibe un token al iniciar sesión, que se incluye en las solicitudes al backend para validar su identidad.
+
