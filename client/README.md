@@ -1,6 +1,6 @@
 # Chat-Tiempo-Real FrontEnd
 
-Este repositorio contiene el código del frontend de la aplicación de chat en tiempo real. La aplicación permite a los usuarios comunicarse en salas de chat compartidas mediante una interfaz moderna e intuitiva, con notificaciones en tiempo real.
+Este repositorio contiene el código del frontend de la aplicación de chat en tiempo real. La aplicación permite a los usuarios comunicarse en salas de chat compartidas mediante una interfaz moderna e intuitiva.
 
 ## Tecnologías y herramientas utilizadas
 ### Frameworks
