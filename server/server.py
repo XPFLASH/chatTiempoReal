@@ -64,7 +64,7 @@ def register():
 
 # Ruta de autenticación (login)
 @app.route('/login', methods=['POST'])
-@limiter.limit("5 per minute") 
+@limiter.limit("3 per minute") 
 def login():
     data = request.json
     email = data.get('email')
@@ -86,7 +86,7 @@ def login():
 # Ruta protegida
 @app.route('/protected', methods=['GET'])
 @jwt_required()
-@limiter.limit("5 per minute")  # Limitar a 5 accesos por minuto
+@limiter.limit("5 per minute") 
 def protected_route():
     current_user = get_jwt_identity()
     return jsonify({"message": f"Bienvenido, {current_user['name']}! Esta es una ruta protegida."}), 200
@@ -94,7 +94,7 @@ def protected_route():
 # Ruta para la renovación de tokens
 @app.route('/refresh', methods=['POST'])
 @jwt_required(refresh=True)
-@limiter.limit("5 per hour")  # Limitar a 5 renovaciones por hora
+@limiter.limit("5 per hour")  
 def refresh():
     current_user = get_jwt_identity()
     new_access_token = create_access_token(identity=current_user)
@@ -104,7 +104,7 @@ def refresh():
 
 # Ruta para cerrar sesión
 @app.route('/logout', methods=['POST'])
-@limiter.limit("5 per hour") 
+@limiter.limit("10 per hour") 
 def logout():
     response = jsonify({"message": "Sesión cerrada exitosamente"})
     unset_jwt_cookies(response)
@@ -112,7 +112,7 @@ def logout():
 
 # Ruta de inicio
 @app.route('/')
-@limiter.exempt  # Excluir la ruta de inicio de los límites
+@limiter.exempt
 def home():
     return "Conectado a MongoDB Atlas exitosamente"
 

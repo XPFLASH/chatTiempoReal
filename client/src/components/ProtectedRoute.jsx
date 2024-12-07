@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Navigate } from 'react-router-dom';
 
 const ProtectedRoute = ({ children }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(null); // Inicialmente null para manejar el estado de autenticación
+  const [isAuthenticated, setIsAuthenticated] = useState(null); 
 
   const checkTokenValidity = async () => {
     const accessToken = localStorage.getItem('access_token');

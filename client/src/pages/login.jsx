@@ -33,7 +33,11 @@ const Login = () => {
 
         alert(data.message);
         navigate('/home');
-      } else {
+      } 
+      else if (response.status === 429) {
+        alert("Has excedido el límite de solicitudes de registro. Intenta de nuevo más tarde.");}
+      
+      else {
         setError(data.message || 'Error al iniciar sesión');
       }
     } catch (error) {
