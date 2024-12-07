@@ -22,7 +22,11 @@ class Server {
         this.server = http.createServer( this.app );
         
         // Configuraciones de sockets
-        this.io = socketio( this.server, { /* configuraciones */ } );
+        this.io = socketio( this.server, { cors: {
+            origin: "http://172.20.10.2:3000", // Dirección del frontend
+            methods: ["GET", "POST"],
+            credentials: true
+        } } );
     }
 
     middlewares() {
@@ -56,7 +60,7 @@ class Server {
         this.configurarSockets();
 
         // Inicializar Server
-        this.server.listen( this.port, () => {
+        this.server.listen( this.port, '0.0.0.0', () => {
             console.log('Server corriendo en puerto:', this.port );
         });
     }
