@@ -15,7 +15,8 @@ const Home = () => {
       if (response.ok) {
         // Obtener el mensaje de la respuesta
         const data = await response.json();
-        alert(data.message);
+        console.log(data.message);
+        // alert(data.message);
 
         // Limpiar el token de acceso y redirigir al login
         localStorage.removeItem('access_token');

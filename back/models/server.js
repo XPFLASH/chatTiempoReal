@@ -23,7 +23,7 @@ class Server {
         
         // Configuraciones de sockets
         this.io = socketio( this.server, { cors: {
-            origin: "http://172.20.10.2:3000", // Dirección del frontend
+            origin: "http://172.20.10.2:3000", // Direccion del frontend
             methods: ["GET", "POST"],
             credentials: true
         } } );
@@ -45,8 +45,6 @@ class Server {
         this.app.use( '/api/mensajes', require('../router/mensajes') );
     }
 
-    // Esta configuración se puede tener aquí o como propieda de clase
-    // depende mucho de lo que necesites
     configurarSockets() {
         new Sockets( this.io );
     }

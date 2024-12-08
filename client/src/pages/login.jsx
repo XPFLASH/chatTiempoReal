@@ -30,7 +30,7 @@ const Login = () => {
       if (response.ok) {
         // Guardar el token de acceso en localStorage
         localStorage.setItem('access_token', data.access_token);
-        alert(data.message);
+        // alert(data.message);
         navigate('/chat');
       } else {
         alert(data.message);
@@ -72,18 +72,18 @@ const Login = () => {
         <span className="focus-input100"></span>
       </div>
 
-      <div className="row mb-3">
+      <div className="cent-itm">
         <div className="col">
           <input className="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" />
           <label className="label-checkbox100">Recordarme</label>
         </div>
 
-        <div className="col text-right">
+        <div className="cent-itm">
           <Link to="/auth/register" className="txt1">¿No tienes cuenta? Regístrate</Link>
         </div>
       </div>
 
-      <div className="container-login100-form-btn m-t-17">
+      <div className="container-login100-form-btn ">
         <button type="submit" className="login100-form-btn">Iniciar Sesión</button>
       </div>
     </form>
