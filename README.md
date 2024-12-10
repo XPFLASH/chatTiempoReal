@@ -158,7 +158,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 3. Actualiza los paquetes e instala MongoDB
 ``sudo apt update``
 ``sudo apt install -y mongodb-org``
-
+> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 4. Inicia y habilita MongoDB
 ``sudo systemctl start mongod``
 ``sudo systemctl enable mongod``
@@ -174,7 +174,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
     
 #### 2. Instala MongoDB
 ``sudo dnf install -y mongodb-org``
-
+> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 3.  Inicia y habilita MongoDB
 ``sudo systemctl start mongod``
 ``sudo systemctl enable mongod``
@@ -185,10 +185,11 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 2. Inicia y habilita MongoDB
 ``sudo systemctl start mongodb``
 ``sudo systemctl enable mongodb``
-
+> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ## Instalación de MongoDB en Windows :floppy_disk:
 #### 1. Ve a la [Página oficial de MongoDB](https://www.mongodb.com/try/download/community "Página oficial de MongoDB") 
-- Descarga la versión adecuada para tu sistema 
+- Descarga la versión adecuada para tu sistema
+> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Instala MongoDB
 - Sigue las instrucciones del instalador y selecciona las opciones predeterminadas
 #### 3. Configura el entorno
