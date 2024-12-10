@@ -7,7 +7,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 2. [Propósitos y Beneficios](#propósitos-y-beneficios)
 3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software)
 4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración)
-5. 
+5. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales)
 
 ## Introducción al Chat en Tiempo Real
 Este sistema como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -181,7 +181,18 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 4. Inicia MongoDB
 ``mongod --dbpath <ruta-al-directorio-de-datos>``
 
+## Guía de Acceso y Recuperación de Credenciales
+En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y recuperar tu contraseña en caso de olvido. A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales cuando lo necesites
 
+## Inicio de Sesión
+Permite a los usuarios autenticarse en el sistema para acceder a sus datos y funciones personalizadas
+**Pasos:**
+- Abre el **Chat en Tiempo Real** (en Web o Móvil)
+- Dirígete a la sección Iniciar Sesión 
+- Ingresa tu correo electrónico en el campo correspondiente
+- Introduce tu contraseña
+- Haz clic en el botón Entrar
+- Si las credenciales son correctas, accederás a tu cuenta. En caso de error, verifica tus datos o si olvidaste tu contraseña utiliza la opción de recuperación de contraseña
 
 
 
