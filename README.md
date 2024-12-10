@@ -42,7 +42,7 @@ _Frontend:_
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
 ## Instrucciones de Instalación y Configuración
-Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ en 3 distros diferentes de Linux:
+Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ y _Express_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ y _Express_ en 3 distros diferentes de Linux:
 ## Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
