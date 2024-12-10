@@ -42,7 +42,7 @@ _Frontend:_
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
 ## Instrucciones de Instalación y Configuración
-Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ y _Express_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ y _Express_ en 3 distros diferentes de Linux:
+Para que el sistema funcione correctamente, asegúrate de tener _Node.js_, _Express_ y _Sockets.IO_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ y _Express_ en 3 distros diferentes de Linux y en Windows:
 ## Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
@@ -86,17 +86,7 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
-## Instalación de Express en Ubuntu/Debian
-1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
-#### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
-``sudo npm install express --save``
-
-## Instalación de Express en Fedora
-1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
-#### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
-``sudo npm install express --save``
-
-## Instalación de Express en Arch Linux
+## Instalación de Express en Ubuntu/Debian, Fedora y Arch Linux
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 #### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
@@ -113,3 +103,4 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
      "dependencies": {
                       "express": "^4.17.1"
                     }
+
