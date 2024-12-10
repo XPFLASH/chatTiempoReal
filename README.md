@@ -6,6 +6,8 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 1. [Introducción al Chat en Tiempo Real](#introducción-al-chat-en-tiempo-real)
 2. [Propósitos y Beneficios](#propósitos-y-beneficios)
 3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software)
+4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración)
+5. 
 
 ## Introducción al Chat en Tiempo Real
 Este sistema como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -38,3 +40,11 @@ _Backend:_ Un servidor Node.js con los siguientes componentes instalados
 
 _Frontend:_ 
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
+
+## Instrucciones de Instalación y Configuración
+Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ en Linux:
+####1. Instalación de Node.js en Ubuntu/Debian
+Actualiza los paquetes del sistema
+``
+sudo apt update
+``
