@@ -143,9 +143,45 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 3. Actualiza los paquetes e instala MongoDB
 ``sudo apt update``
 ``sudo apt install -y mongodb-org``
-## Instalación de jsonwebtoken en Windows
-1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
-``npm install jsonwebtoken --save``
+
+#### 4. Inicia y habilita MongoDB
+``sudo systemctl start mongod``
+``sudo systemctl enable mongod``
+
+## Instalación de MongoDB en Fedora
+#### 1. Crea el archivo /etc/yum.repos.d/mongodb-org-6.0.repo con el siguiente contenido
+    [mongodb-org-6.0]
+    name=MongoDB Repository
+    baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/6.0/x86_64/
+    gpgcheck=1
+    enabled=1
+    gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
+    
+#### 2. Instala MongoDB
+``sudo dnf install -y mongodb-org``
+
+#### 3.  Inicia y habilita MongoDB
+``sudo systemctl start mongod``
+``sudo systemctl enable mongod``
+
+## Instalación de MongoDB en Arch Linux
+#### 1. Instalar MongoDB: Usa un gestor como yay para instalar
+``yay -S mongodb-bin``
+#### 2. Inicia y habilita MongoDB
+``sudo systemctl start mongodb``
+``sudo systemctl enable mongodb``
+
+## Instalación de MongoDB en Windows
+#### 1. Ve a la [Página oficial de MongoDB](https://www.mongodb.com/try/download/community "Página oficial de MongoDB") 
+- Descarga la versión adecuada para tu sistema 
+#### 2. Instala MongoDB
+- Sigue las instrucciones del instalador y selecciona las opciones predeterminadas
+#### 3. Configura el entorno
+- Asegúrate de que el directorio bin de MongoDB esté en el PATH de las variables de entorno
+#### 4. Inicia MongoDB
+``mongod --dbpath <ruta-al-directorio-de-datos>``
+
+
 
 
 
