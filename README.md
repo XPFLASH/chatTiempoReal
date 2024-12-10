@@ -9,6 +9,10 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración)
 5. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales)
 6. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos)
+7. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
+8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](guía-de-elementos-interactivos:-íconos-botones-y-navegación)
+9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-(FAQ)-y-soluciones-a-problemas-comunes)
+10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores:-que-hacer-si-la-aplicación-no-responde)
 
 ## Introducción al Chat en Tiempo Real
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -232,7 +236,43 @@ Si olvidas tu contraseña, puedes recuperarla mediante esta opción
 - Modificar configuraciones del sistema
 - Acceder a funciones avanzadas de administración
 
+## Guía de la Interfaz de Usuario y Sus Componentes Principales
+PENDIENTE de capturas
 
+## Guía de Elementos Interactivos: Íconos, Botones y Navegación
+PENDIENTE de capturas
 
+## Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes 
+#### ¿Qué hago si no puedo iniciar sesión?
+_Posible causa_: Credenciales incorrectas o cuenta no registrada
+_Solución_:
+- Verifica que el correo electrónico y la contraseña sean correctos
+- Asegúrate de que la cuenta esté registrada
+- Si olvidaste tu contraseña, utiliza la opción de "Recuperar contraseña" en la pantalla de inicio de sesión
+
+#### ¿Cómo registro una nueva cuenta?
+- Dirígete a la sección "Registrarse" en la página principal
+- Completa los campos requeridos, como nombre, correo electrónico y contraseña
+- Verifica tu correo electrónico para activar tu cuenta
+
+#### ¿Es posible recuperar mensajes eliminados?
+Dependerá de la configuración del sistema. Por lo general, los mensajes eliminados no son recuperables, a menos que el administrador haya habilitado una función de respaldo
+
+#### ¿Puedo usar el chat en varios dispositivos al mismo tiempo?
+Sí, puedes iniciar sesión en varios dispositivos siempre que tengas acceso a tu cuenta
+
+#### ¿Qué navegadores son compatibles con la aplicación web?
+La aplicación es compatible con navegadores modernos como Google Chrome, Mozilla Firefox, Microsoft Edge y Safari
+
+#### ¿Qué hago si experimento un retraso en los mensajes o desconexiones?
+_Posible causa_: Problemas de conexión a internet o saturación del servidor
+_Solución_:
+- Verifica tu conexión a internet
+- Intenta recargar la página o reiniciar la aplicación
+- Si el problema persiste, contacta al administrador
+#### ¿Cómo reporto un problema técnico o un usuario?
+Dirígete a la sección de "Soporte" o utiliza la opción de "Reportar problema/usuario" en el menú de configuración
+
+## Solución de Errores: Qué Hacer si la Aplicación No Responde
 
 
