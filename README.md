@@ -42,7 +42,7 @@ _Frontend:_
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
 ## Instrucciones de Instalación y Configuración
-Para que el sistema funcione correctamente, asegúrate de tener _Node.js_, _Express_, _Sockets.IO_ y jsonwebtoken instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_, socket.IO y jsonwebtoken en 3 distros diferentes de Linux y en Windows:
+Para que el sistema funcione correctamente, asegúrate de tener _Node.js_, _Express_, _Sockets.IO_, _jsonwebtoken_ y _MongoDB_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_, _socket.IO_, _jsonwebtoken_ y _MongoDB_ en 3 distros diferentes de Linux y en Windows:
 ## Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
@@ -122,6 +122,14 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                           "socket.io": "^3.0.0"
                         }
 
+## Instalación de MongoDB en Ubuntu/Debian
+#### 1. Importa la clave GPG pública
+``wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -``
+#### 2. Crear el archivo de lista de MongoDB
+``echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list``
+#### 3. Actualiza los paquetes e instala MongoDB
+``sudo apt update``
+``sudo apt install -y mongodb-org``
 ## Instalación de jsonwebtoken en Windows
 1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 ``npm install jsonwebtoken --save``
@@ -132,4 +140,6 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
      "dependencies": {
                               "jsonwebtoken": "^8.5.1"
                             }
+
+
 
