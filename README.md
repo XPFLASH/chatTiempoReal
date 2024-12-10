@@ -87,28 +87,28 @@ Actualiza los paquetes del sistema
 ``npm -v``
 
 ## Instalación de Express en Ubuntu/Debian
-#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 #### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
 ## Instalación de Express en Fedora
-#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 #### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
 ## Instalación de Express en Arch Linux
-#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 #### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
 ## Instalación de Express en Windows
-#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 #### 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 #### 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
 ### Para verificar su instalación 
-Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies
+Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
      "dependencies": {
                       "express": "^4.17.1"
