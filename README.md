@@ -55,6 +55,7 @@ Actualiza los paquetes del sistema con el comando
 ``sudo apt update``
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo apt install nodejs`` 
+
 #### 2. Instala npm (el gestor de paquetes de Node.js)
 ``sudo apt install npm``
 #### 3. Verificamos la instalación de ambos
@@ -116,7 +117,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 2. Instalar socket.IO usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install socket.io --save``
 
-## Instalación de spcket.IO en Windows :floppy_disk:
+## Instalación de socket.IO en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
