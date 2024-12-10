@@ -78,4 +78,11 @@ Actualiza los paquetes del sistema
 
 ## Instalación de Node.js en Windows
 #### 1.  Dirígete a la [Página oficial de Node.js](https://nodejs.org/en "Página oficial de Node.js")
+- Descarga la versión adecuada a tu sistema
+#### 2. Ejecuta el instalador
+- Sigue los pasos recomendados, asegúrate de marcar la opción para instalar npm (se incluirá automáticamente con Node.js)
+#### 4. Verifica la instalación
+- Abre tu CMD o PowerShell y ejecuta los siguientes comandos
+``node -v``
+``npm -v``
 
