@@ -109,6 +109,7 @@ Actualiza los paquetes del sistema
 
 ### Para verificar su instalación 
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies
+
      "dependencies": {
                       "express": "^4.17.1"
                     }
