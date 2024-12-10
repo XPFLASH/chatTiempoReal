@@ -89,7 +89,7 @@ Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte 
 ## Instalación de Node.js en Windows :floppy_disk:
 #### 1.  Dirígete a la [Página oficial de Node.js](https://nodejs.org/en "Página oficial de Node.js")
 - Descarga la versión adecuada a tu sistema
-Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Ejecuta el instalador
 - Sigue los pasos recomendados, asegúrate de marcar la opción para instalar npm (se incluirá automáticamente con Node.js)
 #### 4. Verifica la instalación
