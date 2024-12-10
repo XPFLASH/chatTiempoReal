@@ -122,6 +122,16 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                           "socket.io": "^3.0.0"
                         }
 
+## Instalación de jsonwebtoken en Windows
+1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
+``npm install jsonwebtoken --save``
+### Para verificar su instalación 
+Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
+
+     "dependencies": {
+                              "jsonwebtoken": "^8.5.1"
+                            }
+                            
 ## Instalación de MongoDB en Ubuntu/Debian
 #### 1. Importa la clave GPG pública
 ``wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -``
@@ -134,12 +144,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 ``npm install jsonwebtoken --save``
 
-### Para verificar su instalación 
-Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
-     "dependencies": {
-                              "jsonwebtoken": "^8.5.1"
-                            }
 
 
 
