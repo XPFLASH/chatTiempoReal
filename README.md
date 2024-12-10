@@ -43,7 +43,7 @@ _Frontend:_
 
 ## Instrucciones de Instalación y Configuración
 Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ en Linux:
-####1. Instalación de Node.js en Ubuntu/Debian
+#### 1. Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema
 ``
 sudo apt update
