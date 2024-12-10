@@ -279,7 +279,7 @@ _Reinicia la Aplicación_:
 - Cierra la aplicación completamente (en el navegador, cierra la pestaña)
 - Vuelve a abrirla y verifica si el problema persiste
 
-_ Verifica tu Conexión a Internet_:
+_Verifica tu Conexión a Internet_:
 - Asegúrate de estar conectado a una red estable
 - Si estás en Wi-Fi, intenta reiniciar el router
 
@@ -287,6 +287,7 @@ _Limpia la Caché_:
 - En la web: Borra la caché del navegador desde la configuración.
 
 **Problemas Comunes Relacionados con Sockets o el Backend** 
+
 _Mensajes que no se envían o reciben_: 
 - Verifica tu conexión a internet, ya que los sockets dependen de ella para funcionar correctamente
 _Desconexión frecuente del chat_:
