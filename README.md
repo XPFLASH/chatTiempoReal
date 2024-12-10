@@ -64,3 +64,17 @@ Actualiza los paquetes del sistema
 #### 3. Verificamos la instalación de ambos
 ``node -v``
 ``npm -v``
+
+### Instalación de Node.js en Arch Linux
+Actualiza los paquetes del sistema
+``sudo pacman -Syu``
+#### 1. Instala Node.js desde su repositorio oficial
+``sudo pacman -S nodejs npm`` 
+#### 2. Instala npm (el gestor de paquetes de Node.js)
+``sudo pacman -S npm``
+#### 3. Verificamos la instalación de ambos
+``node -v``
+``npm -v``
+
+
+
