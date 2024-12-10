@@ -58,7 +58,7 @@ Actualiza los paquetes del sistema con el comando
 Actualiza los paquetes del sistema
 ``sudo dnf update``
 #### 1. Instala Node.js desde su repositorio oficial
-``sudo dnf  install nodejs`` 
+``sudo dnf install nodejs`` 
 #### 2. Instala npm (el gestor de paquetes de Node.js)
 ``sudo dnf install npm``
 #### 3. Verificamos la instalación de ambos
