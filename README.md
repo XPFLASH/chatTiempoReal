@@ -1,5 +1,5 @@
 # Chat en Tiempo Real en JavaScript :speech_balloon:
-## Manual de Usuario 
+## Manual de Usuario :book:
 En este documento proporcionamos una guía completa para que el usuario pueda instalar, configurar y hacer uso del **Chat en Tiempo Real** :speech_balloon:
 
 ## Índice
@@ -34,7 +34,7 @@ El propósito principal del **Chat en Tiempo Real** es facilitar la comunicació
 - Accesibilidad multiplataforma
 - Uso en diversos entornos
 
-## Requisitos mínimos de Hardware y Software
+## Requisitos mínimos de Hardware y Software :computer:
 La aplicación esta diseñado para que sea accesible desde cualquier dispositivo con conexión a internet, ya sea una PC, una laptop, una tablet o un celular (iOS o Android). No requiere especificaciones de _hardware_ avanzadas.
 
 **Para ejecutar** el  **Chat en Tiempo Real** se requieren los siguientes _Software:_
@@ -48,9 +48,9 @@ _Backend:_ Un servidor Node.js con los siguientes componentes instalados
 _Frontend:_ 
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
-## Instrucciones de Instalación y Configuración
+## Instrucciones de Instalación y Configuración :wrench:
 Para que la aplicación funcione correctamente, asegúrate de tener _Node.js_, _Express_, _Sockets.IO_, _jsonwebtoken_ y _MongoDB_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_, _socket.IO_, _jsonwebtoken_ y _MongoDB_ en 3 distros diferentes de Linux y en Windows:
-## Instalación de Node.js en Ubuntu/Debian
+## Instalación de Node.js en Ubuntu/Debian :penguin:
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
 #### 1. Instala Node.js desde su repositorio oficial
@@ -61,7 +61,7 @@ Actualiza los paquetes del sistema con el comando
 ``node -v``
 ``npm -v``
 
-## Instalación de Node.js en Fedora
+## Instalación de Node.js en Fedora :penguin:
 Actualiza los paquetes del sistema
 ``sudo dnf update``
 #### 1. Instala Node.js desde su repositorio oficial
@@ -72,7 +72,7 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
-## Instalación de Node.js en Arch Linux
+## Instalación de Node.js en Arch Linux :penguin:
 Actualiza los paquetes del sistema
 ``sudo pacman -Syu``
 #### 1. Instala Node.js desde su repositorio oficial
@@ -93,7 +93,7 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
-## Instalación de Express en Ubuntu/Debian, Fedora y Arch Linux
+## Instalación de Express en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
@@ -111,7 +111,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                       "express": "^4.17.1"
                     }
 
-## Instalación de socket.IO en Ubuntu/Debian, Fedora y Arch Linux
+## Instalación de socket.IO en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 2. Instalar socket.IO usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install socket.io --save``
@@ -129,7 +129,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                           "socket.io": "^3.0.0"
                         }
 
-## Instalación de jsonwebtoken en Ubuntu/Debian, Fedora y Arch Linux
+## Instalación de jsonwebtoken en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 ``sudo npm install jsonwebtoken --save``
 
 ## Instalación de jsonwebtoken en Windows
@@ -142,7 +142,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                               "jsonwebtoken": "^8.5.1"
                             }
                             
-## Instalación de MongoDB en Ubuntu/Debian
+## Instalación de MongoDB en Ubuntu/Debian :penguin:
 #### 1. Importa la clave GPG pública
 ``wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -``
 #### 2. Crear el archivo de lista de MongoDB
@@ -155,7 +155,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 ``sudo systemctl start mongod``
 ``sudo systemctl enable mongod``
 
-## Instalación de MongoDB en Fedora
+## Instalación de MongoDB en Fedora :penguin:
 #### 1. Crea el archivo /etc/yum.repos.d/mongodb-org-6.0.repo con el siguiente contenido
     [mongodb-org-6.0]
     name=MongoDB Repository
@@ -171,7 +171,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 ``sudo systemctl start mongod``
 ``sudo systemctl enable mongod``
 
-## Instalación de MongoDB en Arch Linux
+## Instalación de MongoDB en Arch Linux :penguin:
 #### 1. Instalar MongoDB: Usa un gestor como yay para instalar
 ``yay -S mongodb-bin``
 #### 2. Inicia y habilita MongoDB
@@ -188,10 +188,10 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 4. Inicia MongoDB
 ``mongod --dbpath <ruta-al-directorio-de-datos>``
 
-## Guía de Acceso y Recuperación de Credenciales
+## Guía de Acceso y Recuperación de Credenciales 
 En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y recuperar tu contraseña en caso de olvido. A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales cuando lo necesites
 
-## Inicio de Sesión
+## Inicio de Sesión :iphone:
 Permite a los usuarios autenticarse en el sistema para acceder a sus datos y funciones personalizadas
 
 **Pasos:**
@@ -202,7 +202,7 @@ Permite a los usuarios autenticarse en el sistema para acceder a sus datos y fun
 - Haz clic en el botón Entrar
 - Si las credenciales son correctas, accederás a tu cuenta. En caso de error, verifica tus datos o si olvidaste tu contraseña utiliza la opción de recuperación de contraseña
 
-## Registro
+## Registro :pencil2:
 Los nuevos usuarios deben registrarse para crear una cuenta
 
 **Pasos:**
@@ -215,7 +215,7 @@ Los nuevos usuarios deben registrarse para crear una cuenta
 - Recibirás un correo electrónico de verificación. Haz clic en el enlace para confirmar tu cuenta (verificar este punto)
 - Una vez confirmada, podrás iniciar sesión
 
-## Recuperación de contraseña
+## Recuperación de contraseña :key:
 Si olvidas tu contraseña, puedes recuperarla mediante esta opción
 
 **Pasos:**
@@ -224,7 +224,7 @@ Si olvidas tu contraseña, puedes recuperarla mediante esta opción
 - Recibirás un correo con instrucciones para restablecer tu contraseña
 - Guarda los cambios y usa tu nueva contraseña para iniciar sesión
 
-## Roles de Usuario y Permisos
+## Roles de Usuario y Permisos :no_entry_sign:
 
 **Usuario básico:** Este rol está destinado a los usuarios comunes que interactúan con la aplicación en su forma estándar
 **Permisos:** 
@@ -244,7 +244,7 @@ PENDIENTE de capturas
 ## Guía de Elementos Interactivos: Íconos, Botones y Navegación
 PENDIENTE de capturas
 
-## Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes 
+## Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes :interrobang:
 #### ¿Qué hago si no puedo iniciar sesión?
 _Posible causa_: Credenciales incorrectas o cuenta no registrada
 _Solución_:
@@ -319,7 +319,7 @@ _Error al autenticar_:
 - Familiarízate con la Interfaz
 	- Dedica unos minutos a explorar la interfaz y conocer las funcionalidades principales, lo que hará tu experiencia más fluida
 
-## Soporte Técnico y Contacto
+## Soporte Técnico y Contacto :envelope:
 Si necesitas asistencia técnica o tienes preguntas sobre el uso de la aplicación, puedes ponerte en contacto con nuestro equipo de soporte a través de los siguientes canales
 
 Puedes enviarnos un correo electrónico con una descripción detallada de tu problema, y nuestro equipo se pondrá en contacto contigo lo antes posible
