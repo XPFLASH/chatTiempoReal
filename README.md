@@ -48,3 +48,8 @@ Actualiza los paquetes del sistema con el comando
 ``sudo apt update``
 #### 2. Instala Node.js desde su repositorio oficial
 ``sudo apt install nodejs`` 
+#### 3. Instala npm (el gestor de paquetes de Node.js)
+``sudo apt install npm``
+#### 4. Verificamos la instalación de ambos
+``node -v``
+``npm -v``
