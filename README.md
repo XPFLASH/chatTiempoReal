@@ -35,3 +35,6 @@ _Backend:_ Un servidor Node.js con los siguientes componentes instalados
 - Socket.IO: Biblioteca para implementar la comunicación en tiempo real
 - JWT (JSON Web Tokens): Herramienta para la autenticación y seguridad de los usuarios
 - MongoDB: Base de datos para el almacenamiento y gestión de datos, con conexión necesaria para el funcionamiento del sistema
+
+_Frontend:_ 
+- Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
