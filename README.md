@@ -104,3 +104,13 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                       "express": "^4.17.1"
                     }
 
+## Instalación de socket.IO en Ubuntu/Debian, Fedora y Arch Linux
+1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+#### 2. Instalar socket.IO usando npm (el gestor de paquetes de Node.js)
+``sudo npm install socket.io --save``
+
+## Instalación de spcket.IO en Windows
+1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
+#### 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
+``npm install express socket.io --save``
