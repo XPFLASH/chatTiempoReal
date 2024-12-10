@@ -14,7 +14,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-(FAQ)-y-soluciones-a-problemas-comunes)
 10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-que-hacer-si-la-aplicación-no-responde)
 11. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendación-para-un-uso-eficiente-de-la-aplicación)
-12. [Soporte Técnico y Contacto](#soporte-tecnico-y-contacto)
+12. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto)
 
 ## Introducción al Chat en Tiempo Real
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -324,8 +324,10 @@ Si necesitas asistencia técnica o tienes preguntas sobre el uso de la aplicaci�
 
 **Correo electrónico:** Soporte@chat.com
 Puedes enviarnos un correo electrónico con una descripción detallada de tu problema, y nuestro equipo se pondrá en contacto contigo lo antes posible
+
 **Horario de atención:**
 Lunes a Viernes: 9:00 AM - 6:00 PM
+
 **Redes Sociales:**
 Puedes seguirnos y contactarnos a través de nuestras redes sociales
 Facebook: Tuchat
