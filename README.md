@@ -13,6 +13,8 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
 9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-(FAQ)-y-soluciones-a-problemas-comunes)
 10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-que-hacer-si-la-aplicación-no-responde)
+11. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendación-para-un-uso-eficiente-de-la-aplicación)
+12. [Soporte Técnico y Contacto](#soporte-tecnico-y-contacto)
 
 ## Introducción al Chat en Tiempo Real
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -229,7 +231,7 @@ Si olvidas tu contraseña, puedes recuperarla mediante esta opción
 - Iniciar sesión y registrar una cuenta
 - Enviar y recibir mensajes en tiempo real
 - Acceder a funcionalidades limitadas según la configuración de la aplicación
-- 
+
 **Administrador:** Los administradores tienen permisos adicionales para gestionar el sistema y los usuarios
 **Permisos:** 
 - Crear, editar y eliminar cuentas de usuario
@@ -295,4 +297,37 @@ _Desconexión frecuente del chat_:
 _Error al autenticar_:
 - Verifica que tu token JWT sea válido y que no haya expirado. Si el problema persiste, intenta cerrar sesión y volver a iniciarla
 
+## Recomendaciones para un Uso Eficiente de la Aplicación
+- Mantén tu Navegador o Dispositivo Actualizado
+	- Asegúrate de utilizar la última versión de tu navegador o sistema operativo para garantizar la compatibilidad con la aplicación
+- Utiliza Conexiones a Internet Estables
+	- Conéctate a redes Wi-Fi confiables o asegúrate de tener una buena señal si usas datos móviles
+	- Evita redes públicas no seguras para proteger tu información
+- No Compartas tus Credenciales
+	- Mantén tu nombre de usuario y contraseña en privado
+	- Usa contraseñas seguras y actualízalas periódicamente
+- Limpia Regularmente la Caché
+	- Esto ayuda a evitar problemas de rendimiento y asegura que accedes a la última versión de la aplicación
+- Evita Usar la Aplicación en Múltiples Dispositivos Simultáneamente
+	- Aunque la aplicación soporta múltiples sesiones, esto podría generar problemas de sincronización de mensajes en tiempo real
+- Cierra Sesión en Dispositivos Públicos
+	- Si utilizas la aplicación en un dispositivo compartido, asegúrate de cerrar sesión después de usarla para proteger tus datos
+- Reporta Problemas Inmediatamente
+	- Si encuentras un error o problema técnico, informa al equipo de soporte proporcionando detalles claros para que puedan solucionarlo rápidamente
+- Sigue las Políticas de Uso
+	- Evita el envío de mensajes inapropiados o spam para mantener un ambiente seguro y respetuoso dentro de la aplicación
+- Familiarízate con la Interfaz
+	- Dedica unos minutos a explorar la interfaz y conocer las funcionalidades principales, lo que hará tu experiencia más fluida
 
+## Soporte Técnico y Contacto
+Si necesitas asistencia técnica o tienes preguntas sobre el uso de la aplicación, puedes ponerte en contacto con nuestro equipo de soporte a través de los siguientes canales
+
+**Correo electrónico:** Soporte@chat.com
+Puedes enviarnos un correo electrónico con una descripción detallada de tu problema, y nuestro equipo se pondrá en contacto contigo lo antes posible
+**Horario de atención:**
+Lunes a Viernes: 9:00 AM - 6:00 PM
+**Redes Sociales:**
+Puedes seguirnos y contactarnos a través de nuestras redes sociales
+Facebook: Tuchat
+Twitter: @TuChat
+Instagram: @TuChat
