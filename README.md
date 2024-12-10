@@ -76,5 +76,6 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
-
+## Instalación de Node.js en Windows
+### 1.  Dirígete a la [Página oficial de Node.js](https://nodejs.org/en "Página oficial de Node.js")
 
