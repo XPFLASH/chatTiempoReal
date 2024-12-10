@@ -42,7 +42,7 @@ _Frontend:_
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
 ## Instrucciones de Instalación y Configuración
-Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ en Linux:
+Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ en 3 distros diferentes de Linux:
 #### 1. Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
@@ -50,6 +50,17 @@ Actualiza los paquetes del sistema con el comando
 ``sudo apt install nodejs`` 
 #### 3. Instala npm (el gestor de paquetes de Node.js)
 ``sudo apt install npm``
+#### 4. Verificamos la instalación de ambos
+``node -v``
+``npm -v``
+
+#### 1. Instalación de Node.js en Fedora
+Actualiza los paquetes del sistema
+``sudo dnf update``
+#### 2. Instala Node.js desde su repositorio oficial
+``sudo dnf  install nodejs`` 
+#### 3. Instala npm (el gestor de paquetes de Node.js)
+``sudo dnf install npm``
 #### 4. Verificamos la instalación de ambos
 ``node -v``
 ``npm -v``
