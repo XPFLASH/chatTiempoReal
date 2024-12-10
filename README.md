@@ -42,7 +42,7 @@ _Frontend:_
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
 ## Instrucciones de Instalación y Configuración
-Para que el sistema funcione correctamente, asegúrate de tener _Node.js_, _Express_ y _Sockets.IO_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_ y socket.IO en 3 distros diferentes de Linux y en Windows:
+Para que el sistema funcione correctamente, asegúrate de tener _Node.js_, _Express_, _Sockets.IO_ y jsonwebtoken instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_, socket.IO y jsonwebtoken en 3 distros diferentes de Linux y en Windows:
 ## Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
@@ -130,5 +130,6 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
      "dependencies": {
-                              "socket.io": "^8.5.1"
+                              "jsonwebtoken": "^8.5.1"
                             }
+
