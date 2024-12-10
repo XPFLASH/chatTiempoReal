@@ -16,7 +16,7 @@ Su diseño y tecnología permiten su uso tanto en plataformas web como en dispos
 
 ## Propósitos y Beneficios 
 El propósito principal del **Chat en Tiempo Real** es facilitar la comunicación instantánea entre usuarios de manera eficiente y segura, diseñada con un enfoque completo, el sistema combina un *frontend* interactivo, *sockets* para su comunicación en tiempo real, una *base de datos* para la gestión de información y un *backend*  robusto para garantizar un rendimiento óptimo 
-###Beneficios para el Usuario###
+###Beneficios para el Usuario
 - Comunicación instantánea
 - Interfaz amigable
 - Accesibilidad multiplataforma
