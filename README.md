@@ -331,6 +331,6 @@ Lunes a Viernes: 9:00 AM - 6:00 PM
 
 **Redes Sociales:**
 Puedes seguirnos y contactarnos a través de nuestras redes sociales
-Facebook: Tuchat
-Twitter: @TuChat
-Instagram: @TuChat
+	Facebook: Tuchat
+	Twitter: @TuChat
+	Instagram: @TuChat
