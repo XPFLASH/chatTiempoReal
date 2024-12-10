@@ -275,4 +275,23 @@ Dirígete a la sección de "Soporte" o utiliza la opción de "Reportar problema/
 
 ## Solución de Errores: Qué Hacer si la Aplicación No Responde
 
+_Reinicia la Aplicación_:
+- Cierra la aplicación completamente (en el navegador, cierra la pestaña)
+- Vuelve a abrirla y verifica si el problema persiste
+
+_ Verifica tu Conexión a Internet_:
+- Asegúrate de estar conectado a una red estable
+- Si estás en Wi-Fi, intenta reiniciar el router
+
+_Limpia la Caché_:
+- En la web: Borra la caché del navegador desde la configuración.
+
+**Problemas Comunes Relacionados con Sockets o el Backend** 
+_Mensajes que no se envían o reciben_: 
+- Verifica tu conexión a internet, ya que los sockets dependen de ella para funcionar correctamente
+_Desconexión frecuente del chat_:
+- Asegúrate de que el servidor backend esté en ejecución. Si eres administrador, revisa los logs del servidor para identificar posibles errores
+_Error al autenticar_:
+- Verifica que tu token JWT sea válido y que no haya expirado. Si el problema persiste, intenta cerrar sesión y volver a iniciarla
+
 
