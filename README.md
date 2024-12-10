@@ -12,7 +12,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 7. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
 8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos:-íconos,-botones-y-navegación)
 9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-(FAQ)-y-soluciones-a-problemas-comunes)
-10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores:-que-hacer-si-la-aplicación-no-responde)
+10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-que-hacer-si-la-aplicación-no-responde)
 
 ## Introducción al Chat en Tiempo Real
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
