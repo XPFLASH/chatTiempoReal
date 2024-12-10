@@ -122,6 +122,9 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                           "socket.io": "^3.0.0"
                         }
 
+## Instalación de jsonwebtoken en Ubuntu/Debian, Fedora y Arch Linux
+``sudo npm install jsonwebtoken --save``
+
 ## Instalación de jsonwebtoken en Windows
 1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 ``npm install jsonwebtoken --save``
