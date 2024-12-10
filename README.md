@@ -118,3 +118,14 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 ### Para verificar su instalación 
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
+    "dependencies": {
+                          "socket.io": "^3.0.0"
+                        }
+
+## Instalación de jsonwebtoken en Windows
+1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
+``npm install jsonwebtoken --save``
+
+### Para verificar su instalación 
+Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
+
