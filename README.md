@@ -4,11 +4,11 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 
 ## Índice
 1. [Introducción al Chat en Tiempo Real](#introducción-al-chat-en-tiempo-real-paperclip)
-2. [Propósitos y Beneficios](#propósitos-y-beneficios)
-3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software)
-4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración)
-5. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales)
-6. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos)
+2. [Propósitos y Beneficios](#propósitos-y-beneficios-dart)
+3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software-computer)
+4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración-wrench)
+5. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales-key)
+6. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos-no_entry_sign)
 7. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
 8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
 9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-FAQ-y-soluciones-a-problemas-comunes)
@@ -25,7 +25,7 @@ Su diseño y tecnología permiten su uso tanto en plataformas web como en dispos
 * La transmisión en tiempo real de los mensajes
 * Diseño intuitivo y fácil de usar
 
-## Propósitos y Beneficios 
+## Propósitos y Beneficios :dart:
 El propósito principal del **Chat en Tiempo Real** es facilitar la comunicación instantánea entre usuarios de manera eficiente y segura, diseñada con un enfoque completo, el sistema combina un *frontend* interactivo, *sockets* para su comunicación en tiempo real, una *base de datos* para la gestión de información y un *backend*  robusto para garantizar un rendimiento óptimo 
 
 ### Beneficios para el Usuario
@@ -83,7 +83,7 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
-## Instalación de Node.js en Windows
+## Instalación de Node.js en Windows :floppy_disk:
 #### 1.  Dirígete a la [Página oficial de Node.js](https://nodejs.org/en "Página oficial de Node.js")
 - Descarga la versión adecuada a tu sistema
 #### 2. Ejecuta el instalador
@@ -98,13 +98,13 @@ Actualiza los paquetes del sistema
 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
-## Instalación de Express en Windows
+## Instalación de Express en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
-### Para verificar su instalación 
+### Para verificar su instalación :heavy_check_mark:
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
      "dependencies": {
@@ -116,13 +116,13 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 2. Instalar socket.IO usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install socket.io --save``
 
-## Instalación de spcket.IO en Windows
+## Instalación de spcket.IO en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``npm install express socket.io --save``
 
-### Para verificar su instalación 
+### Para verificar su instalación :heavy_check_mark:
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
     "dependencies": {
@@ -132,10 +132,10 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 ## Instalación de jsonwebtoken en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 ``sudo npm install jsonwebtoken --save``
 
-## Instalación de jsonwebtoken en Windows
+## Instalación de jsonwebtoken en Windows :floppy_disk:
 1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 ``npm install jsonwebtoken --save``
-### Para verificar su instalación 
+### Para verificar su instalación :heavy_check_mark:
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
      "dependencies": {
@@ -178,7 +178,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 ``sudo systemctl start mongodb``
 ``sudo systemctl enable mongodb``
 
-## Instalación de MongoDB en Windows
+## Instalación de MongoDB en Windows :floppy_disk:
 #### 1. Ve a la [Página oficial de MongoDB](https://www.mongodb.com/try/download/community "Página oficial de MongoDB") 
 - Descarga la versión adecuada para tu sistema 
 #### 2. Instala MongoDB
@@ -188,7 +188,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 4. Inicia MongoDB
 ``mongod --dbpath <ruta-al-directorio-de-datos>``
 
-## Guía de Acceso y Recuperación de Credenciales 
+## Guía de Acceso y Recuperación de Credenciales :key:
 En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y recuperar tu contraseña en caso de olvido. A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales cuando lo necesites
 
 ## Inicio de Sesión :iphone:
