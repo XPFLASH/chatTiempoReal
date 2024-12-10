@@ -323,6 +323,7 @@ _Error al autenticar_:
 Si necesitas asistencia técnica o tienes preguntas sobre el uso de la aplicación, puedes ponerte en contacto con nuestro equipo de soporte a través de los siguientes canales
 
 Puedes enviarnos un correo electrónico con una descripción detallada de tu problema, y nuestro equipo se pondrá en contacto contigo lo antes posible
+
 **Correo electrónico:** Soporte@chat.com
 
 **Horario de atención:**
