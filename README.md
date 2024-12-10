@@ -103,7 +103,7 @@ Actualiza los paquetes del sistema
 
 ## Instalación de Express en Windows
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
-#### 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
+2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 #### 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
 
