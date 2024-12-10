@@ -77,7 +77,7 @@ Actualiza los paquetes del sistema
 ## Instalación de Node.js en Arch Linux :penguin:
 Actualiza los paquetes del sistema
 ``sudo pacman -Syu``
-Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo pacman -S nodejs npm`` 
 #### 2. Instala npm (el gestor de paquetes de Node.js)
