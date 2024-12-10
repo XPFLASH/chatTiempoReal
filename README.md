@@ -12,7 +12,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 7. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
 8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
 9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-(FAQ)-y-soluciones-a-problemas-comunes)
-10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-que-hacer-si-la-aplicación-no-responde)
+10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-qué-hacer-sí-la-aplicación-no-responde)
 11. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendación-para-un-uso-eficiente-de-la-aplicación)
 12. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto)
 
@@ -322,8 +322,8 @@ _Error al autenticar_:
 ## Soporte Técnico y Contacto
 Si necesitas asistencia técnica o tienes preguntas sobre el uso de la aplicación, puedes ponerte en contacto con nuestro equipo de soporte a través de los siguientes canales
 
-**Correo electrónico:** Soporte@chat.com
 Puedes enviarnos un correo electrónico con una descripción detallada de tu problema, y nuestro equipo se pondrá en contacto contigo lo antes posible
+**Correo electrónico:** Soporte@chat.com
 
 **Horario de atención:**
 Lunes a Viernes: 9:00 AM - 6:00 PM
