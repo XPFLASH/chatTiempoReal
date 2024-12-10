@@ -43,7 +43,7 @@ _Frontend:_
 
 ## Instrucciones de Instalación y Configuración
 Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_ en 3 distros diferentes de Linux:
-### Instalación de Node.js en Ubuntu/Debian
+## Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
 #### 1. Instala Node.js desde su repositorio oficial
@@ -54,7 +54,7 @@ Actualiza los paquetes del sistema con el comando
 ``node -v``
 ``npm -v``
 
-### Instalación de Node.js en Fedora
+## Instalación de Node.js en Fedora
 Actualiza los paquetes del sistema
 ``sudo dnf update``
 #### 1. Instala Node.js desde su repositorio oficial
@@ -65,7 +65,7 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
-### Instalación de Node.js en Arch Linux
+## Instalación de Node.js en Arch Linux
 Actualiza los paquetes del sistema
 ``sudo pacman -Syu``
 #### 1. Instala Node.js desde su repositorio oficial
