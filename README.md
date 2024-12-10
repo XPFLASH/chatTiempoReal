@@ -46,4 +46,5 @@ Para que el sistema funcione correctamente, asegúrate de tener _Node.js_ instal
 #### 1. Instalación de Node.js en Ubuntu/Debian
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
-
+### 2. Instala Node.js desde su repositorio oficial
+``sudo apt install nodejs`` 
