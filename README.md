@@ -55,7 +55,7 @@ Actualiza los paquetes del sistema con el comando
 ``sudo apt update``
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo apt install nodejs`` 
-
+> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Instala npm (el gestor de paquetes de Node.js)
 ``sudo apt install npm``
 #### 3. Verificamos la instalación de ambos
@@ -65,6 +65,7 @@ Actualiza los paquetes del sistema con el comando
 ## Instalación de Node.js en Fedora :penguin:
 Actualiza los paquetes del sistema
 ``sudo dnf update``
+Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo dnf install nodejs`` 
 #### 2. Instala npm (el gestor de paquetes de Node.js)
@@ -76,6 +77,7 @@ Actualiza los paquetes del sistema
 ## Instalación de Node.js en Arch Linux :penguin:
 Actualiza los paquetes del sistema
 ``sudo pacman -Syu``
+Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo pacman -S nodejs npm`` 
 #### 2. Instala npm (el gestor de paquetes de Node.js)
@@ -87,6 +89,7 @@ Actualiza los paquetes del sistema
 ## Instalación de Node.js en Windows :floppy_disk:
 #### 1.  Dirígete a la [Página oficial de Node.js](https://nodejs.org/en "Página oficial de Node.js")
 - Descarga la versión adecuada a tu sistema
+Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Ejecuta el instalador
 - Sigue los pasos recomendados, asegúrate de marcar la opción para instalar npm (se incluirá automáticamente con Node.js)
 #### 4. Verifica la instalación
@@ -98,9 +101,10 @@ Actualiza los paquetes del sistema
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
-
+> Nota: En este proyecto utilizamos la versión 4.17.1 de Express Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ## Instalación de Express en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+> Nota: En este proyecto utilizamos la versión 4.17.1 de Express Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install express --save``
@@ -114,11 +118,13 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 
 ## Instalación de socket.IO en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+> Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 2. Instalar socket.IO usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install socket.io --save``
 
 ## Instalación de socket.IO en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+> Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
 ``npm install express socket.io --save``
@@ -132,10 +138,11 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 
 ## Instalación de jsonwebtoken en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 ``sudo npm install jsonwebtoken --save``
-
+> Nota: En este proyecto utilizamos la versión 8.5.1 de jsonwebtoken Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ## Instalación de jsonwebtoken en Windows :floppy_disk:
 1. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 ``npm install jsonwebtoken --save``
+> Nota: En este proyecto utilizamos la versión 8.5.1 de jsonwebtoken Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ### Para verificar su instalación :heavy_check_mark:
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
 
