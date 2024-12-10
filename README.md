@@ -86,3 +86,23 @@ Actualiza los paquetes del sistema
 ``node -v``
 ``npm -v``
 
+## Instalación de Express en Ubuntu/Debian
+#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+#### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
+``sudo npm install express --save``
+
+## Instalación de Expressen Fedora
+#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+#### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
+``sudo npm install express --save``
+
+## Instalación de Expressen Arch Linux
+#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+#### 2. Instalar Express usando npm (el gestor de paquetes de Node.js)
+``sudo npm install express --save``
+
+## Instalación de Expressen Fedora
+#### 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
+#### 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
+#### 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
+``sudo npm install express --save``
