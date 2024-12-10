@@ -11,7 +11,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 6. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos)
 7. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
 8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
-9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-(FAQ)-y-soluciones-a-problemas-comunes)
+9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-FAQ-y-soluciones-a-problemas-comunes)
 10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-qué-hacer-si-la-aplicación-no-responde)
 11. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendación-para-un-uso-eficiente-de-la-aplicación)
 12. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto)
