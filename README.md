@@ -5,6 +5,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 ## Índice
 1. [Introducción al Chat en Tiempo Real](#introducción-al-chat-en-tiempo-real)
 2. [Propósitos y Beneficios](#propósitos-y-beneficios)
+3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-software)
 
 ## Introducción al Chat en Tiempo Real
 Este sistema como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -23,3 +24,6 @@ El propósito principal del **Chat en Tiempo Real** es facilitar la comunicació
 - Interfaz amigable
 - Accesibilidad multiplataforma
 - Uso en diversos entornos
+
+## Requisitos mínimos de Hardware y Software
+
