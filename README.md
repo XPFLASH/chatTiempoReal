@@ -118,10 +118,9 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 
 ## Instalación de socket.IO en Ubuntu/Debian, Fedora y Arch Linux :penguin:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
-> Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 2. Instalar socket.IO usando npm (el gestor de paquetes de Node.js)
 ``sudo npm install socket.io --save``
-
+> Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ## Instalación de socket.IO en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
 > Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
