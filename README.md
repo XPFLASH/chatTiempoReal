@@ -26,4 +26,12 @@ El propósito principal del **Chat en Tiempo Real** es facilitar la comunicació
 - Uso en diversos entornos
 
 ## Requisitos mínimos de Hardware y Software
+El sistema esta diseñado para que sea accesible desde cualquier dispositivo con conexión a internet, ya sea una PC, una laptop, una tablet o un celular (iOS o Android). No requiere especificaciones de _hardware_ avanzadas.
 
+**Para ejecutar** el  **Chat en Tiempo Real** se requieren los siguientes _Software:_
+
+_Backend:_ Un servidor Node.js con los siguientes componentes instalados
+- Express:  Framework para manejar las solicitudes HTTP
+- Socket.IO: Biblioteca para implementar la comunicación en tiempo real
+- JWT (JSON Web Tokens): Herramienta para la autenticación y seguridad de los usuarios
+- MongoDB: Base de datos para el almacenamiento y gestión de datos, con conexión necesaria para el funcionamiento del sistema
