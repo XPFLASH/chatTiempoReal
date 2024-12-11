@@ -154,52 +154,30 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                               "jsonwebtoken": "^8.5.1"
                             }
                             
-## Instalación de MongoDB en Ubuntu/Debian :penguin:
-#### 1. Importa la clave GPG pública
-``wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -``
-#### 2. Crear el archivo de lista de MongoDB
-``echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list``
-#### 3. Actualiza los paquetes e instala MongoDB
-``sudo apt update``
-``sudo apt install -y mongodb-org``
+## Configuración de MongoDB en Ubuntu/Debian, fedora, Arch Linux y Windows 
+MongoDB Atlas es un servicio basado en la nube, por lo que no requiere instalación local del servidor MongoDB en el sistema. Sin embargo, puedes instalar herramientas opcionales como el MongoDB CLI o el cliente gráfico MongoDB Compass para interactuar con la base de datos
+#### 1. Crea una Cuenta en MongoDB Atlas
+- Dirígete a la [Página oficial de MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database "Página oficial de MongoDB Atlas") y regístrate 
+#### 2. Configura un Clúster
+- Haz clic en "Build a Cluster"
+- Selecciona un proveedor de nube (como AWS, Google Cloud o Azure).
+- Configura la región y la capa gratuita (Free Tier)
+- Haz clic en Create Cluster y espera a que se cree
+#### 3. Configura la Seguridad
+- En Database Access, crea un usuario con un nombre de usuario y contraseña
+- En Network Access, permite el acceso desde todas las IPs (Allow Access from Anywhere) o especifica direcciones IP específicas
+#### 4. Haz clic en Connect en tu clúster
+- Selecciona Connect your application
+- Copia la cadena de conexión que tendrá un formato como
+``mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority``
+#### 5. Instala Mongoose en Tu Proyecto
+- Asegúrate de tener Node.js instalado
+- En tu proyecto Node.js, ejecuta este comando para instalar Mongoose
+``npm install mongoose``
 > Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
-#### 4. Inicia y habilita MongoDB
-``sudo systemctl start mongod``
-``sudo systemctl enable mongod``
+#### 6. Configura la Conexión con Mongoose
+- En tu código JavaScript o TypeScript, usa la cadena de conexión para conectar Mongoose a MongoDB Atlas
 
-## Instalación de MongoDB en Fedora :penguin:
-#### 1. Crea el archivo /etc/yum.repos.d/mongodb-org-6.0.repo con el siguiente contenido
-    [mongodb-org-6.0]
-    name=MongoDB Repository
-    baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/6.0/x86_64/
-    gpgcheck=1
-    enabled=1
-    gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc
-    
-#### 2. Instala MongoDB
-``sudo dnf install -y mongodb-org``
-> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
-#### 3.  Inicia y habilita MongoDB
-``sudo systemctl start mongod``
-``sudo systemctl enable mongod``
-
-## Instalación de MongoDB en Arch Linux :penguin:
-#### 1. Instalar MongoDB: Usa un gestor como yay para instalar
-``yay -S mongodb-bin``
-#### 2. Inicia y habilita MongoDB
-``sudo systemctl start mongodb``
-``sudo systemctl enable mongodb``
-> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
-## Instalación de MongoDB en Windows :floppy_disk:
-#### 1. Ve a la [Página oficial de MongoDB](https://www.mongodb.com/try/download/community "Página oficial de MongoDB") 
-- Descarga la versión adecuada para tu sistema
-> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
-#### 2. Instala MongoDB
-- Sigue las instrucciones del instalador y selecciona las opciones predeterminadas
-#### 3. Configura el entorno
-- Asegúrate de que el directorio bin de MongoDB esté en el PATH de las variables de entorno
-#### 4. Inicia MongoDB
-``mongod --dbpath <ruta-al-directorio-de-datos>``
 
 ## Cómo Ejecutar el _Chat en Tiempo Real_ :arrow_forward:
 Ejecuta el _Chat en Tiempo Real_ con el siguiente comando
