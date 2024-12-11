@@ -61,56 +61,62 @@ export const LoginPage = () => {
   };
 
   return (
-    <form className="formularioPersonalizado" onSubmit={onSubmit}>
-      <div className=" ">
+    <div className="fatherPrincipal">
+      <form className="formularioPersonalizado" onSubmit={onSubmit}>
+        <img
+          src="/iteconnectlogo.jpg"
+          className="elLogo"
+          alt="logoDeIteconnect"
+        ></img>
+        <p className="formularioEslogan">
+          Un espacio seguro para intercambiar mensajes con compañeros y
+          maestros.
+        </p>
+        <p className="formularioEtiqueta">Correo electrónico:</p>
+
         <input
-          className=""
+          className="correoInput"
           type="email"
           name="email"
-          placeholder="Email"
+          placeholder="usuario@cuenta.com"
           value={form.email}
           onChange={onChange}
         />
-        <span className=""></span>
-      </div>
-
-      <div className="">
+        <p className="formularioEtiqueta">Contraseña:</p>
         <input
-          className=""
+          className="correoInput"
           type="password"
           name="password"
-          placeholder="Password"
           value={form.password}
           onChange={onChange}
         />
-        <span></span>
-      </div>
 
-      <div className="">
-        <div className="" onClick={() => toggleCheck()}>
-          <input
-            className=""
-            id="ckb1"
-            type="checkbox"
-            name="rememberme"
-            checked={form.rememberme}
-            readOnly
-          />
-          <label className="">Recordarme</label>
+        <div className="contenedorFila">
+          <div className="" onClick={() => toggleCheck()}>
+            <input
+              className=""
+              id="ckb1"
+              type="checkbox"
+              name="rememberme"
+              checked={form.rememberme}
+              readOnly
+            />
+            <label className="formularioEtiqueta">Recordarme</label>
+          </div>
+
+          <div className="">
+            <Link to="/auth/register" className="formularioEtiqueta">
+              ¿Nuevo Usuario?
+            </Link>
+          </div>
         </div>
 
         <div className="">
-          <Link to="/auth/register" className="txt1">
-            ¿Nueva cuenta?
-          </Link>
+          <button type="submit" className="" disabled={!todoOk()}>
+            Ingresar
+          </button>
         </div>
-      </div>
-
-      <div className="">
-        <button type="submit" className="" disabled={!todoOk()}>
-          Ingresar
-        </button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };

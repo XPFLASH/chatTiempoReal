@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -7,15 +8,83 @@
 body,
 html {
   height: 100%;
-
+}
+.fatherPrincipal {
+  width: 100%;
+  height: 100vh;
   background-image: url("/public/loginbackground.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .formularioPersonalizado {
   width: 40.46%;
   height: 91.01vh;
-  background-color: yellow;
+  background-color: #333333;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+}
+.elLogo {
+  margin-top: 1%;
+  width: 35%;
+  height: 30%;
+  border-radius: 30px;
+  margin-bottom: 2.5%;
+}
+
+.formularioEslogan {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 150%;
+  color: #ffffff;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.formularioEtiqueta {
+  width: 85%;
+
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 130%;
+  color: #ffffff;
+  margin-bottom: 1%;
+}
+.correoInput {
+  width: 85%;
+  height: 8.5%;
+  background-color: #333333;
+
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #9c9898;
+  font-size: 120%;
+  padding-left: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.correoInput:hover {
+  background-color: #484848;
+}
+
+.contenedorFila {
+  margin-top: 2%;
+
+  width: 100%;
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
