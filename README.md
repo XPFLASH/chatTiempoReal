@@ -185,8 +185,6 @@ Ejecuta el _Chat en Tiempo Real_ con el siguiente comando
 ``npm start``
 
 ## Guía de Acceso y Recuperación de Credenciales :key:
-En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y, en el futuro, recuperar tu contraseña en caso de olvido. Actualmente, la funcionalidad de recuperación de credenciales se encuentra en fase **Alpha** o planeada para futuras versiones
-
 A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales una vez que esta funcionalidad esté disponible
 
 
