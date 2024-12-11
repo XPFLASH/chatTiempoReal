@@ -213,7 +213,7 @@ Los nuevos usuarios deben registrarse para crear una cuenta
 - Una vez confirmada, podrás iniciar sesión
 
 ## Recuperación de Contraseña :key:
-En esta sección, se explica cómo recuperar tu contraseña en caso de olvido. Actualmente, esta aplicación se encuentra en fase **Alpha** y está planeada para futuras versiones de la aplicación
+Actualmente, esta aplicación se encuentra en fase **Alpha** y está planeada para futuras versiones de la aplicación
 
 Una vez disponible, podrás solicitar un enlace para restablecer tu contraseña a través de tu correo electrónico registrado, garantizando así que puedas recuperar el acceso a tu cuenta de manera segura
 
