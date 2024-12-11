@@ -198,7 +198,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 ``mongod --dbpath <ruta-al-directorio-de-datos>``
 
 ## Cómo Ejecutar el _Chat en Tiempo Real_ :arrow_forward:
-
+PENDIENTE
 
 ## Guía de Acceso y Recuperación de Credenciales :key:
 En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y recuperar tu contraseña en caso de olvido. A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales cuando lo necesites
