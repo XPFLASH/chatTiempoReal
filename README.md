@@ -7,14 +7,15 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 2. [Propósitos y Beneficios](#propósitos-y-beneficios-dart)
 3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software-computer)
 4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración-wrench)
-5. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales-key)
-6. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos-no_entry_sign)
-7. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
-8. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
-9. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-FAQ-y-soluciones-a-problemas-comunes-interrobang)
-10. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-qué-hacer-si-la-aplicación-no-responde)
-11. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendaciones-para-un-uso-eficiente-de-la-aplicación)
-12. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto-envelope)
+5. [Cómo Ejecutar el _Chat en Tiempo Real](#cómo-ejecutar-el-Chat-en-tiempo-eal-arrow_forward)
+6. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales-key)
+7. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos-no_entry_sign)
+8. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
+9. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
+10. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-FAQ-y-soluciones-a-problemas-comunes-interrobang)
+11. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-qué-hacer-si-la-aplicación-no-responde)
+12. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendaciones-para-un-uso-eficiente-de-la-aplicación)
+13. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto-envelope)
 
 ## Introducción al Chat en Tiempo Real :paperclip:
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
@@ -196,7 +197,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 #### 4. Inicia MongoDB
 ``mongod --dbpath <ruta-al-directorio-de-datos>``
 
-## Cómo Ejecutar el _Chat en Tiempo Real_
+## Cómo Ejecutar el _Chat en Tiempo Real_ :arrow_forward:
 
 
 ## Guía de Acceso y Recuperación de Credenciales :key:
