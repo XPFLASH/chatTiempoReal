@@ -1,63 +1,58 @@
-import React, { useContext, useEffect } from 'react';
-import { createContext } from 'react';
+import React, { useContext, useEffect } from "react";
+import { createContext } from "react";
 
-import { AuthContext } from '../auth/AuthContext';
-import { ChatContext } from './chat/ChatContext';
-import { useSocket } from '../hooks/useSocket'
+import { AuthContext } from "../auth/AuthContext";
+import { ChatContext } from "./chat/ChatContext";
+import { useSocket } from "../hooks/useSocket";
 
-import { types } from '../types/types';
-import { scrollToBottomAnimated } from '../helpers/scrollToBottom';
+import { types } from "../types/types";
+import { scrollToBottomAnimated } from "../helpers/scrollToBottom";
 
 export const SocketContext = createContext();
 
-
 export const SocketProvider = ({ children }) => {
+  const { socket, online, conectarSocket, desconectarSocket } = useSocket(
+    "http://192.168.56.1:8080"
+  );
+  const { auth } = useContext(AuthContext);
+  const { dispatch } = useContext(ChatContext);
 
-    const { socket, online, conectarSocket, desconectarSocket } = useSocket('http://192.168.0.148:8080');
-    const { auth } = useContext( AuthContext );
-    const { dispatch } = useContext( ChatContext );
+  useEffect(() => {
+    if (auth.logged) {
+      conectarSocket();
+    }
+  }, [auth, conectarSocket]);
 
-    useEffect(() => {
-        if ( auth.logged ) {
-            conectarSocket();
-        }
-    }, [ auth, conectarSocket ]);
+  useEffect(() => {
+    if (!auth.logged) {
+      desconectarSocket();
+    }
+  }, [auth, desconectarSocket]);
 
-    useEffect(() => {
-        if ( !auth.logged ) {
-            desconectarSocket();
-        }
-    }, [ auth, desconectarSocket ]);
+  // Escuchar los cambios en los usuarios conectados
+  useEffect(() => {
+    socket?.on("lista-usuarios", (usuarios) => {
+      dispatch({
+        type: types.usuariosCargados,
+        payload: usuarios,
+      });
+    });
+  }, [socket, dispatch]);
 
-    // Escuchar los cambios en los usuarios conectados
-    useEffect(() => {
-        
-        socket?.on( 'lista-usuarios', (usuarios) => {
-            dispatch({
-                type: types.usuariosCargados,
-                payload: usuarios
-            });
-        })
+  useEffect(() => {
+    socket?.on("mensaje-personal", (mensaje) => {
+      dispatch({
+        type: types.nuevoMensaje,
+        payload: mensaje,
+      });
 
-    }, [ socket, dispatch ]);
+      scrollToBottomAnimated("mensajes");
+    });
+  }, [socket, dispatch]);
 
-
-    useEffect(() => {
-        socket?.on('mensaje-personal', (mensaje) => {
-            dispatch({
-                type: types.nuevoMensaje,
-                payload: mensaje
-            });
-
-            scrollToBottomAnimated('mensajes');
-        })
-
-    }, [ socket, dispatch ]);
-
-
-    return (
-        <SocketContext.Provider value={{ socket, online }}>
-            { children }
-        </SocketContext.Provider>
-    )
-}
+  return (
+    <SocketContext.Provider value={{ socket, online }}>
+      {children}
+    </SocketContext.Provider>
+  );
+};
