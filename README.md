@@ -154,7 +154,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
                               "jsonwebtoken": "^8.5.1"
                             }
                             
-## Configuración de MongoDB en Ubuntu/Debian, fedora, Arch Linux y Windows 
+## Configuración de MongoDB
 MongoDB Atlas es un servicio basado en la nube, por lo que no requiere instalación local del servidor MongoDB en el sistema. Sin embargo, puedes instalar herramientas opcionales como el MongoDB CLI o el cliente gráfico MongoDB Compass para interactuar con la base de datos
 #### 1. Crea una Cuenta en MongoDB Atlas
 - Dirígete a la [Página oficial de MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database "Página oficial de MongoDB Atlas") y regístrate 
