@@ -3,7 +3,7 @@
 En este documento proporcionamos una guía completa para que el usuario pueda instalar, configurar y hacer uso del **Chat en Tiempo Real** :speech_balloon:
 
 ## Índice
-1. [Docuemntación Oficial](#documentación-oficial-blue_book)
+1. [Documentación Oficial](#documentación-oficial-blue_book)
 2. [Introducción al Chat en Tiempo Real](#introducción-al-chat-en-tiempo-real-paperclip)
 3. [Propósitos y Beneficios](#propósitos-y-beneficios-dart)
 4. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software-computer)
