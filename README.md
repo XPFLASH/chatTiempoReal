@@ -3,19 +3,22 @@
 En este documento proporcionamos una guía completa para que el usuario pueda instalar, configurar y hacer uso del **Chat en Tiempo Real** :speech_balloon:
 
 ## Índice
-1. [Introducción al Chat en Tiempo Real](#introducción-al-chat-en-tiempo-real-paperclip)
-2. [Propósitos y Beneficios](#propósitos-y-beneficios-dart)
-3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software-computer)
-4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración-wrench)
-5. [Cómo Ejecutar el Chat en Tiempo Real](#cómo-ejecutar-el-chat-en-tiempo-real-arrow_forward)
-6. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales-key)
-7. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos-no_entry_sign)
-8. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
-9. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
-10. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-FAQ-y-soluciones-a-problemas-comunes-interrobang)
-11. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-qué-hacer-si-la-aplicación-no-responde)
-12. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendaciones-para-un-uso-eficiente-de-la-aplicación)
-13. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto-envelope)
+1. [Docuemntación Oficial](#documentación-oficial-blue_book)
+2. [Introducción al Chat en Tiempo Real](#introducción-al-chat-en-tiempo-real-paperclip)
+3. [Propósitos y Beneficios](#propósitos-y-beneficios-dart)
+4. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software-computer)
+5. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración-wrench)
+6. [Cómo Ejecutar el Chat en Tiempo Real](#cómo-ejecutar-el-chat-en-tiempo-real-arrow_forward)
+7. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales-key)
+8. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos-no_entry_sign)
+9. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
+10. [Guía de Elementos Interactivos: Íconos, Botones y Navegación](#guía-de-elementos-interactivos-íconos-botones-y-navegación)
+11. [Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes](#preguntas-frecuentes-FAQ-y-soluciones-a-problemas-comunes-interrobang)
+12. [Solución de Errores: Qué Hacer si la Aplicación No Responde](#solución-de-errores-qué-hacer-si-la-aplicación-no-responde)
+13. [Recomendaciones para un Uso Eficiente de la Aplicación](#recomendaciones-para-un-uso-eficiente-de-la-aplicación)
+14. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto-envelope)
+
+## Documentación Oficial :blue_book:
 
 ## Introducción al Chat en Tiempo Real :paperclip:
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
