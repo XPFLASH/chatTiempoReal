@@ -199,6 +199,7 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 
 ## Cómo Ejecutar el _Chat en Tiempo Real_ :arrow_forward:
 Ejecuta el _Chat en Tiempo Real_ con el siguiente comando
+
 ``npm start``
 
 ## Guía de Acceso y Recuperación de Credenciales :key:
