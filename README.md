@@ -108,10 +108,10 @@ Actualiza los paquetes del sistema
 > Nota: En este proyecto utilizamos la versión 4.17.1 de Express Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ## Instalación de Express en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
-> Nota: En este proyecto utilizamos la versión 4.17.1 de Express Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
-``sudo npm install express --save``
+``npm install express``
+> Nota: En este proyecto utilizamos la versión 4.17.1 de Express Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 
 ### Para verificar su instalación :heavy_check_mark:
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
@@ -127,10 +127,10 @@ Puedes verificar si se ha instalado correctamente revisando las dependencias en 
 > Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 ## Instalación de socket.IO en Windows :floppy_disk:
 1. Asegúrate de tener Node.js instalado (consulta la sección más arriba para instalar Node.js)
-> Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 2. Abre tu CMD o PowerShell y navega a la dirección de tu proyecto
 3. Instalar Express usando npm (el gestor de paquetes de Node.js)
-``npm install express socket.io --save``
+``npm install socket.io``
+> Nota: En este proyecto utilizamos la versión 3.0.0 de socket.IO. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 
 ### Para verificar su instalación :heavy_check_mark:
 Puedes verificar si se ha instalado correctamente revisando las dependencias en el archivo _package.json_ de tu proyecto. Deberías ver algo en la sección de dependencies así (la versión puede variar dependiendo la versión instalada)
@@ -248,12 +248,6 @@ Si olvidas tu contraseña, puedes recuperarla mediante esta opción
 - Iniciar sesión y registrar una cuenta
 - Enviar y recibir mensajes en tiempo real
 - Acceder a funcionalidades limitadas según la configuración de la aplicación
-
-**Administrador:** Los administradores tienen permisos adicionales para gestionar el sistema y los usuarios
-**Permisos:** 
-- Crear, editar y eliminar cuentas de usuario
-- Modificar configuraciones del sistema
-- Acceder a funciones avanzadas de administración
 
 ## Guía de la Interfaz de Usuario y Sus Componentes Principales
 PENDIENTE de capturas
