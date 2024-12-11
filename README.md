@@ -174,7 +174,7 @@ MongoDB Atlas es un servicio basado en la nube, por lo que no requiere instalaci
 - Asegúrate de tener Node.js instalado
 - En tu proyecto Node.js, ejecuta este comando para instalar Mongoose
 ``npm install mongoose``
-> Nota: En este proyecto utilizamos la versión 5.13.22 de MongoDB Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión 5.13.22 de Mongoose Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 6. Configura la Conexión con Mongoose
 - En tu código JavaScript o TypeScript, usa la cadena de conexión para conectar Mongoose a MongoDB Atlas
 
