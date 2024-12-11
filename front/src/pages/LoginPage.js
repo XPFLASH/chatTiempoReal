@@ -52,7 +52,11 @@ export const LoginPage = () => {
     const ok = await login(email, password);
 
     if (!ok) {
-      Swal.fire("Error", "Verifique el usuario y contraseña", "error");
+      Swal.fire(
+        "Error",
+        "Por favor verifique su correo y contraseña.",
+        "error"
+      );
     }
   };
 
@@ -92,9 +96,9 @@ export const LoginPage = () => {
         />
 
         <div className="contenedorFila">
-          <div className="" onClick={() => toggleCheck()}>
+          <div className="contenedorRecordarme" onClick={() => toggleCheck()}>
             <input
-              className=""
+              className="checkboxPersonalizado"
               id="ckb1"
               type="checkbox"
               name="rememberme"
@@ -111,11 +115,13 @@ export const LoginPage = () => {
           </div>
         </div>
 
-        <div className="">
-          <button type="submit" className="" disabled={!todoOk()}>
-            Ingresar
-          </button>
-        </div>
+        <button
+          type="submit"
+          className="botonPersonalizado"
+          disabled={!todoOk()}
+        >
+          Ingresar
+        </button>
       </form>
     </div>
   );

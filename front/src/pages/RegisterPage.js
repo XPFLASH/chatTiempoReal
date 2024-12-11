@@ -41,39 +41,32 @@ export const RegisterPage = () => {
   };
 
   return (
-    <form
-      className="login100-form validate-form flex-sb flex-w"
-      onSubmit={onSubmit}
-    >
-      <span className="login100-form-title mb-3">Chat - Registro</span>
-
-      <div className="wrap-input100 validate-input mb-3">
+    <form onSubmit={onSubmit}>
+      <div className="">
         <input
-          className="input100"
+          className=""
           type="text"
           name="name"
           placeholder="Nombre"
           value={form.name}
           onChange={onChange}
         />
-        <span className="focus-input100"></span>
       </div>
 
-      <div className="wrap-input100 validate-input mb-3">
+      <div className="">
         <input
-          className="input100"
+          className=""
           type="email"
           name="email"
           placeholder="Email"
           value={form.email}
           onChange={onChange}
         />
-        <span className="focus-input100"></span>
       </div>
 
-      <div className="wrap-input100 validate-input mb-3">
+      <div className="">
         <input
-          className="input100"
+          className=""
           type="password"
           name="password"
           placeholder="Password"
