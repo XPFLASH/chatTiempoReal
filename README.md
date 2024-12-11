@@ -185,7 +185,10 @@ Ejecuta el _Chat en Tiempo Real_ con el siguiente comando
 ``npm start``
 
 ## Guía de Acceso y Recuperación de Credenciales :key:
-En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y recuperar tu contraseña en caso de olvido. A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales cuando lo necesites
+En esta sección, se describen los pasos necesarios para acceder a tu cuenta, registrarte como nuevo usuario y, en el futuro, recuperar tu contraseña en caso de olvido. Actualmente, la funcionalidad de recuperación de credenciales se encuentra en fase **Alpha** o planeada para futuras versiones
+
+A través de estos procedimientos, podrás gestionar de manera segura tu acceso a la aplicación, asegurando que siempre tengas la posibilidad de iniciar sesión o restablecer tus credenciales una vez que esta funcionalidad esté disponible
+
 
 ## Inicio de Sesión :iphone:
 Permite a los usuarios autenticarse en el sistema para acceder a sus datos y funciones personalizadas
@@ -211,14 +214,11 @@ Los nuevos usuarios deben registrarse para crear una cuenta
 - Recibirás un correo electrónico de verificación. Haz clic en el enlace para confirmar tu cuenta (verificar este punto)
 - Una vez confirmada, podrás iniciar sesión
 
-## Recuperación de contraseña :key:
-Si olvidas tu contraseña, puedes recuperarla mediante esta opción
+## Recuperación de Contraseña :key:
+En esta sección, se explica cómo recuperar tu contraseña en caso de olvido. Actualmente, esta funcionalidad se encuentra en fase **Alpha** o está planeada para futuras versiones de la aplicación
 
-**Pasos:**
-- En la sección Iniciar Sesión, haz clic en el enlace ¿Olvidaste tu contraseña?
-- Ingresa el correo electrónico asociado a tu cuenta
-- Recibirás un correo con instrucciones para restablecer tu contraseña
-- Guarda los cambios y usa tu nueva contraseña para iniciar sesión
+Una vez disponible, podrás solicitar un enlace para restablecer tu contraseña a través de tu correo electrónico registrado, garantizando así que puedas recuperar el acceso a tu cuenta de manera segura
+
 
 ## Roles de Usuario y Permisos :no_entry_sign:
 
