@@ -7,7 +7,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 2. [Propósitos y Beneficios](#propósitos-y-beneficios-dart)
 3. [Requisitos mínimos de Hardware y Software](#requisitos-mínimos-de-hardware-y-Software-computer)
 4. [Instrucciones de Instalación y Configuración](#instrucciones-de-instalación-y-configuración-wrench)
-5. [Cómo Ejecutar el Chat en Tiempo Real](#cómo-ejecutar-el-Chat-en-tiempo-ral-arrow-forward)
+5. [Cómo Ejecutar el Chat en Tiempo Real](#cómo-ejecutar-el-Chat-en-tiempo-real-arrow-forward)
 6. [Guía de Acceso y Recuperación de Credenciales](#guía-de-acceso-y-recuperación-de-credenciales-key)
 7. [Roles de Usuario y Permisos](#roles-de-usuario-y-permisos-no_entry_sign)
 8. [Guía de la Interfaz de Usuario y Sus Componentes Principales](#guía-de-la-interfaz-de-usuario-y-sus-componentes-principales)
