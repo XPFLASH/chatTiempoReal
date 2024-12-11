@@ -56,7 +56,7 @@ Actualiza los paquetes del sistema con el comando
 ``sudo apt update``
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo apt install nodejs`` 
-> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión 20.11.1 de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Instala npm (el gestor de paquetes de Node.js)
 ``sudo apt install npm``
 #### 3. Verificamos la instalación de ambos
@@ -68,7 +68,7 @@ Actualiza los paquetes del sistema
 ``sudo dnf update``
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo dnf install nodejs`` 
-> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión 20.11.1 de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Instala npm (el gestor de paquetes de Node.js)
 ``sudo dnf install npm``
 #### 3. Verificamos la instalación de ambos
@@ -80,7 +80,7 @@ Actualiza los paquetes del sistema
 ``sudo pacman -Syu``
 #### 1. Instala Node.js desde su repositorio oficial
 ``sudo pacman -S nodejs npm`` 
-> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión 20.11.1 de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Instala npm (el gestor de paquetes de Node.js)
 ``sudo pacman -S npm``
 #### 3. Verificamos la instalación de ambos
@@ -90,7 +90,7 @@ Actualiza los paquetes del sistema
 ## Instalación de Node.js en Windows :floppy_disk:
 #### 1.  Dirígete a la [Página oficial de Node.js](https://nodejs.org/en "Página oficial de Node.js")
 - Descarga la versión adecuada a tu sistema
-> Nota: En este proyecto utilizamos la versión x.x.x de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
+> Nota: En este proyecto utilizamos la versión 20.11.1 de Node.js. Para asegurarte de instalar esta versión, puedes especificarla o actualizar tu sistema después de la instalación
 #### 2. Ejecuta el instalador
 - Sigue los pasos recomendados, asegúrate de marcar la opción para instalar npm (se incluirá automáticamente con Node.js)
 #### 4. Verifica la instalación
