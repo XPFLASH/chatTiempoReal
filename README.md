@@ -53,7 +53,8 @@ _Frontend:_
 - Un navegador web moderno y actualizado (como Chrome, Firefox, Edge, o Safari)
 
 ## Instrucciones de Instalación y Configuración :wrench:
-Para que la aplicación funcione correctamente, asegúrate de tener _Node.js_, _Express_, _Sockets.IO_, _jsonwebtoken_ y _MongoDB_ instalado en tu sistema. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_, _socket.IO_, _jsonwebtoken_ y _MongoDB_ en 3 distros diferentes de Linux y en Windows:
+Para que la aplicación funcione correctamente, asegúrate de tener _Node.js_, _Express_, _Sockets.IO_ y _jsonwebtoken_ instalado en tu sistema, además de tener bien confugurado  _MongoDB_. A continuación, se detallan los pasos para instalar _Node.js_,  _Express_, _socket.IO_ y _jsonwebtoken_ y la configuración de _MongoDB_  en 3 distros diferentes de Linux y en Windows:
+
 ## Instalación de Node.js en Ubuntu/Debian :penguin:
 Actualiza los paquetes del sistema con el comando 
 ``sudo apt update``
