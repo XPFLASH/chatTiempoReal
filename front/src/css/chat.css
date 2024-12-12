@@ -14,14 +14,13 @@ img {
   float: left;
   overflow: hidden;
   width: 22.44%;
-  border-right: 1px solid #c4c4c4;
+
   background-color: #333333;
   height: 100%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.75);
 }
 
 .inbox_msg {
-  border: 1px solid #c4c4c4;
   clear: both;
   overflow: hidden;
   height: 100vh;
@@ -46,7 +45,7 @@ img {
 .filaNombreSalir {
   padding: 10px 10px 10px 10px;
   overflow: hidden;
-  border-bottom: 1px solid #c4c4c4;
+  border-bottom: 1px solid black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -201,7 +200,7 @@ img {
 
 .subcontenedorMensajeHora {
   float: right;
-  width: 46%;
+  width: 44%;
   background-color: #2138cc;
   border-radius: 15px;
 }
@@ -210,16 +209,21 @@ img {
   font-size: 14px;
   margin: 0;
   color: #fff;
-  padding: 5px 10px 5px 12px;
-  width: 100%;
+  padding: 2% 4% 2% 4.1%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 100%;
   word-wrap: break-word;
   text-align: justify;
 }
 .mensajeEnviadoHora {
-  color: #747474;
-  display: block;
-  font-size: 12px;
-  text-align: end;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  color: white;
+  text-align: right;
   margin-right: 3%;
 }
 
