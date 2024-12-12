@@ -20,8 +20,8 @@ html {
 }
 
 .formularioPersonalizado {
-  width: 40.46%;
-  height: 91.01vh;
+  width: 85.46%;
+  height: 75.01vh;
   background-color: #333333;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,20 @@ html {
 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
   border-radius: 30px;
+}
+@media (min-width: 1072px) {
+  .formularioPersonalizado {
+    width: 40.46%;
+    height: 91.01vh;
+  }
+  .formularioEtiqueta {
+    font-weight: 300;
+    font-size: 130%;
+  }
+  .etiquetaRegistro {
+    font-weight: 300;
+    font-size: 130%;
+  }
 }
 .elLogo {
   margin-top: 1%;
@@ -45,7 +59,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 150%;
-  color: #ffffff;
+  color: hsl(0, 0%, 100%);
   margin-bottom: 3%;
   text-align: center;
 }
@@ -57,7 +71,7 @@ html {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 130%;
+  font-size: 115%;
   color: #ffffff;
   margin-bottom: 1%;
   text-align: justify;
@@ -132,7 +146,7 @@ html {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 125%;
+  font-size: 115%;
   color: #ffffff;
   margin-bottom: 1%;
   text-align: justify;

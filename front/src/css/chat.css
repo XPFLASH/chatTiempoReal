@@ -1,6 +1,7 @@
 html,
 body {
-  height: 100vh;
+  height: 100%;
+
   margin: 0;
 }
 
@@ -12,8 +13,11 @@ img {
   background: #f8f8f8 none repeat scroll 0 0;
   float: left;
   overflow: hidden;
-  width: 40%;
+  width: 22.44%;
   border-right: 1px solid #c4c4c4;
+  background-color: #333333;
+  height: 100%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.75);
 }
 
 .inbox_msg {

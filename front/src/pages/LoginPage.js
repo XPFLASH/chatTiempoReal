@@ -72,10 +72,7 @@ export const LoginPage = () => {
           className="elLogo"
           alt="logoDeIteconnect"
         ></img>
-        <p className="formularioEslogan">
-          Un espacio seguro para intercambiar mensajes con compañeros y
-          maestros.
-        </p>
+
         <p className="formularioEtiqueta">Correo electrónico:</p>
 
         <input
