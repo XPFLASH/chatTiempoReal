@@ -235,6 +235,7 @@ PENDIENTE de capturas
 ## Preguntas Frecuentes (FAQ) y Soluciones a Problemas Comunes :interrobang:
 #### ¿Qué hago si no puedo iniciar sesión?
 _Posible causa_: Credenciales incorrectas o cuenta no registrada
+
 _Solución_:
 - Verifica que el correo electrónico y la contraseña sean correctos
 - Asegúrate de que la cuenta esté registrada
@@ -256,6 +257,7 @@ La aplicación es compatible con navegadores modernos como Google Chrome, Mozill
 
 #### ¿Qué hago si experimento un retraso en los mensajes o desconexiones?
 _Posible causa_: Problemas de conexión a internet o saturación del servidor
+
 _Solución_:
 - Verifica tu conexión a internet
 - Intenta recargar la página o reiniciar la aplicación
