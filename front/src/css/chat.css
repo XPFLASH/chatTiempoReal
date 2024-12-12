@@ -50,6 +50,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 3%;
 }
 
 .recent_heading h4 {
@@ -95,11 +96,6 @@ img {
   margin: auto;
 }
 
-.chat_img {
-  float: left;
-  width: 11%;
-}
-
 .chat_ib {
   float: left;
   padding: 0 0 0 15px;
@@ -115,17 +111,20 @@ img {
   cursor: pointer;
   margin: 0;
   width: 91.18%;
-  height: 9.45%;
-  background-color: #333333;
+  height: 8.45%;
+
   border-radius: 25px;
   display: flex;
   flex-direction: row;
   align-items: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   margin-bottom: 2.92%;
-  flex-shrink: 0;
-
   margin-top: 1%;
+  flex-shrink: 0;
+  background-color: #484848;
+}
+.padreDeChatSingularFila:hover {
+  background-color: #929292;
 }
 
 .inbox_chat {
@@ -138,7 +137,7 @@ img {
 }
 
 .active_chat {
-  background: #ebebeb;
+  background: rgb(92, 158, 204);
 }
 
 .incoming_msg_img {
@@ -280,4 +279,20 @@ textarea {
 
 .botonSalir:hover {
   background-color: #484848;
+}
+
+.chatSingularContenedorImagen {
+  margin-left: 3%;
+  width: 17.3%;
+  height: 78.55%;
+  border-radius: 50%;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+.chatSingularNombre {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 100% !important;
+  color: #ffffff !important;
 }

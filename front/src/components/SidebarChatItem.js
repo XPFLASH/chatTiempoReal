@@ -34,22 +34,21 @@ export const SidebarChatItem = ({ usuario }) => {
       onClick={onClick}
     >
       {/* active_chat */}
-      <div className="chatSingularFila">
-        <div className="chat_img">
-          <img
-            src="https://p.kindpng.com/picc/s/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png"
-            alt="sunil"
-          />
-        </div>
-        <div className="chat_ib">
-          <h5> {usuario.nombre} </h5>
-          {usuario.online ? (
-            <span className="text-success">Activo</span>
-          ) : (
-            <span className="text-danger">Inactivo</span>
-          )}
-        </div>
+
+      <img
+        src="https://p.kindpng.com/picc/s/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png"
+        alt="sunil"
+        className="chatSingularContenedorImagen"
+      />
+
+      <div className="chat_ib">
+        <p className="chatSingularNombre"> {usuario.nombre} </p>
+        {usuario.online ? (
+          <span className="text-success">Activo</span>
+        ) : (
+          <span className="text-danger">Inactivo</span>
+        )}
       </div>
-    </div>
+    </div> //concluye padre
   );
 };
