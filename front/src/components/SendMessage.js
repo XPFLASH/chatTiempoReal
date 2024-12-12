@@ -41,7 +41,7 @@ export const SendMessage = () => {
   return (
     <form onSubmit={onSubmit}>
       <div className="type_msg">
-        <div className="input_msg_write col-sm-9">
+        <div className="input_msg_write ">
           <input
             type="text"
             className="write_msg"
