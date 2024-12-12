@@ -28,7 +28,9 @@ export const SidebarChatItem = ({ usuario }) => {
 
   return (
     <div
-      className={`chat_list ${usuario.uid === chatActivo && "active_chat"}`}
+      className={`padreDeChatSingularFila ${
+        usuario.uid === chatActivo && "active_chat"
+      }`}
       onClick={onClick}
     >
       {/* active_chat */}

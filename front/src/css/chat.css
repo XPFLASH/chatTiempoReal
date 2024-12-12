@@ -111,16 +111,30 @@ img {
   clear: both;
 }
 
-.chat_list {
-  border-bottom: 1px solid #c4c4c4;
+.padreDeChatSingularFila {
   cursor: pointer;
   margin: 0;
-  padding: 18px 16px 10px;
+  width: 91.18%;
+  height: 9.45%;
+  background-color: #333333;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2.92%;
+  flex-shrink: 0;
+
+  margin-top: 1%;
 }
 
 .inbox_chat {
   height: 100%;
   overflow-y: scroll;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .active_chat {
@@ -219,7 +233,6 @@ img {
 
 .extra_space {
   height: 150px;
-  background-color: green;
 }
 
 .search-bar:focus,
