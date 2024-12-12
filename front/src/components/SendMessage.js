@@ -50,11 +50,10 @@ export const SendMessage = () => {
             onChange={onChange}
           />
         </div>
-        <div className="col-sm-3 text-center">
-          <button className="botonSalir" type="submit">
-            Enviar
-          </button>
-        </div>
+
+        <button className="botonEnviar" type="submit">
+          Enviar
+        </button>
       </div>
     </form>
   );

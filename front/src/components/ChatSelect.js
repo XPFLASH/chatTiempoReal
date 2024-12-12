@@ -1,16 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export const ChatSelect = () => {
-    return (
-        <div className="middle-screen">
-            <div className="alert-info">
-                <hr />
-                <h3>Seleccione una persona</h3>
-                <span>
-                    Para comenzar una conversación
-                </span>
-
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="middle-screen">
+      <p className="middle-screen-ElegirChat">
+        Seleccione una persona para iniciar una conversación{" "}
+      </p>
+    </div>
+  );
+};

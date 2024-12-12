@@ -24,6 +24,7 @@ img {
   clear: both;
   overflow: hidden;
   height: 100vh;
+  background-color: #333333;
 }
 
 .top_spac {
@@ -242,7 +243,7 @@ img {
   color: white;
   font-size: 15px;
   min-height: 48px;
-  width: 100%;
+  width: 90%;
   margin-left: 1.51%;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -288,8 +289,20 @@ textarea {
   position: absolute;
   top: 40%;
   right: 0;
-  width: 60%;
+  width: 75%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+.middle-screen p {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 175%;
+  color: #ffffff;
 }
 
 .nombreUsuarioLogeado {
@@ -332,4 +345,21 @@ textarea {
   font-weight: 600 !important;
   font-size: 100% !important;
   color: #ffffff !important;
+}
+
+.botonEnviar {
+  width: 23%;
+
+  border-radius: 15px;
+  background-color: #333333;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 120%;
+}
+
+.botonEnviar:hover {
+  background-color: #484848;
 }
