@@ -21,7 +21,7 @@ html {
 
 .formularioPersonalizado {
   width: 85.46%;
-  height: 75.01vh;
+  height: 70.01vh;
   background-color: #333333;
   display: flex;
   flex-direction: column;
@@ -31,17 +31,26 @@ html {
   border-radius: 30px;
 }
 @media (min-width: 1072px) {
+  /*cuando el ancho de la pantalla sea este tamaño, aplicar estas 
+  propiedades */
   .formularioPersonalizado {
     width: 40.46%;
     height: 91.01vh;
   }
-  .formularioEtiqueta {
-    font-weight: 300;
-    font-size: 130%;
-  }
+
   .etiquetaRegistro {
     font-weight: 300;
     font-size: 130%;
+  }
+  .correoInput {
+    background-color: #333333 !important; /*el hecho de que tengamos un hover para esta
+    clase, el navegador intenta mantener esas propiedades iniciales aun cuando usamos
+    media queries, por lo que con "!important" hacemos que las reglas del media query
+    tengan proridad sobre esas propiedades iniciales*/
+    color: #9c9898 !important;
+  }
+  .correoInput:hover {
+    background-color: #484848 !important;
   }
 }
 .elLogo {
@@ -75,16 +84,22 @@ html {
   color: #ffffff;
   margin-bottom: 1%;
   text-align: justify;
+  text-decoration: none;
+}
+.formularioEtiqueta:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 .correoInput {
   width: 85%;
   height: 8.5%;
-  background-color: #333333;
+  background-color: #929292;
+  color: white;
 
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   border: none;
-  color: #9c9898;
+
   font-size: 120%;
   padding-left: 5%;
   font-family: "Montserrat", sans-serif;
@@ -92,6 +107,9 @@ html {
 }
 .correoInput:hover {
   background-color: #484848;
+}
+.correoInput::placeholder {
+  color: rgb(73, 72, 72);
 }
 
 .contenedorFila {
@@ -189,4 +207,9 @@ html {
   color: #ffffff;
   margin-bottom: 1%;
   text-align: justify;
+  text-decoration: none;
+}
+.textoTienesCuenta:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
