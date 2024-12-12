@@ -171,13 +171,6 @@ img {
   width: 100%;
 }
 
-.time_date {
-  color: #747474;
-  display: block;
-  font-size: 12px;
-  margin: 8px 0 0;
-}
-
 .received_withd_msg {
   width: 57%;
 }
@@ -201,7 +194,17 @@ img {
   border-radius: 4px;
 }
 
-.sent_msg p {
+.contenedorPadreMensajeEnviado {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+
+.subcontenedorMensajeHora {
+  float: right;
+  width: 46%;
+  background-color: orange;
+}
+.mensajeEnviadoTexto {
   background: #7674fe none repeat scroll 0 0;
   border-radius: 3px;
   font-size: 14px;
@@ -210,15 +213,11 @@ img {
   padding: 5px 10px 5px 12px;
   width: 100%;
 }
-
-.outgoing_msg {
-  overflow: hidden;
-  margin: 26px 0 26px;
-}
-
-.sent_msg {
-  float: right;
-  width: 46%;
+.mensajeEnviadoHora {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
 }
 
 .input_msg_write input {
