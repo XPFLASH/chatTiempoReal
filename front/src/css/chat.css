@@ -43,10 +43,13 @@ img {
   padding: 5px;
 }
 
-.headind_srch {
+.filaNombreSalir {
   padding: 10px 10px 10px 10px;
   overflow: hidden;
   border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .recent_heading h4 {
@@ -103,7 +106,7 @@ img {
   width: 88%;
 }
 
-.chat_people {
+.chatSingularFila {
   overflow: hidden;
   clear: both;
 }
@@ -116,7 +119,7 @@ img {
 }
 
 .inbox_chat {
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
 }
 
@@ -216,6 +219,7 @@ img {
 
 .extra_space {
   height: 150px;
+  background-color: green;
 }
 
 .search-bar:focus,
@@ -237,4 +241,30 @@ textarea {
   right: 0;
   width: 60%;
   text-align: center;
+}
+
+.nombreUsuarioLogeado {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 120%;
+  color: #ffffff;
+}
+
+.botonSalir {
+  width: 55%;
+
+  border-radius: 15px;
+  background-color: #333333;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 120%;
+}
+
+.botonSalir:hover {
+  background-color: #484848;
 }
