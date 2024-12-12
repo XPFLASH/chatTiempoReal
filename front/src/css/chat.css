@@ -129,11 +129,20 @@ img {
 
 .inbox_chat {
   height: 100%;
-  overflow-y: scroll;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  overflow-y: scroll;
+}
+
+.inbox_chat::-webkit-scrollbar {
+  width: 6px;
+}
+.inbox_chat::-webkit-scrollbar-thumb {
+  background: #c1bbbb;
+  border-radius: 4px;
 }
 
 .active_chat {
