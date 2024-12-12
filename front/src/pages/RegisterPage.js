@@ -41,58 +41,55 @@ export const RegisterPage = () => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
-      <div className="">
+    <div className="fatherPrincipal">
+      <form className="formularioPersonalizado" onSubmit={onSubmit}>
+        <p className="textoPrincipalRegistrarse">Registrarse</p>
+        <p className="formularioEtiqueta">
+          Para crear tu cuenta, por favor llena los siguientes campos:
+        </p>
+        <p className="etiquetaRegistro">Nombre de usuario:</p>
         <input
-          className=""
+          className="correoInput"
           type="text"
           name="name"
           placeholder="Nombre"
           value={form.name}
           onChange={onChange}
         />
-      </div>
-
-      <div className="">
+        <p className="etiquetaRegistro">Correo electrónico:</p>
         <input
-          className=""
+          className="correoInput"
           type="email"
           name="email"
-          placeholder="Email"
+          placeholder="usuario@cuenta.com"
           value={form.email}
           onChange={onChange}
         />
-      </div>
+        <p className="etiquetaRegistro">Contraseña:</p>
 
-      <div className="">
         <input
-          className=""
+          className="correoInput"
           type="password"
           name="password"
-          placeholder="Password"
+          placeholder=""
           value={form.password}
           onChange={onChange}
         />
-        <span className="focus-input100"></span>
-      </div>
 
-      <div className="row mb-3">
-        <div className="col text-right">
-          <Link to="/auth/login" className="txt1">
-            Ya tienes cuenta?
+        <div className="contenedorColumna">
+          <button
+            type="submit"
+            className="botonCrearCuenta"
+            disabled={!todoOk()}
+          >
+            Crear cuenta
+          </button>
+
+          <Link to="/auth/login" className="textoTienesCuenta">
+            ¿Ya tienes una cuenta?
           </Link>
         </div>
-      </div>
-
-      <div className="container-login100-form-btn m-t-17">
-        <button
-          type="submit"
-          className="login100-form-btn"
-          disabled={!todoOk()}
-        >
-          Crear cuenta
-        </button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
