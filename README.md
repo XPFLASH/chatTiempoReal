@@ -19,6 +19,7 @@ En este documento proporcionamos una guía completa para que el usuario pueda in
 14. [Soporte Técnico y Contacto](#soporte-técnico-y-contacto-envelope)
 
 ## Documentación Oficial :blue_book:
+[Documentación Oficial - Chat en Tiempo Real](https://drive.google.com/file/d/1a9JRBewjt69WvcwT6d7mQ_ZN5a21wNrB/view?usp=sharing "Documentación Oficial - Chat en Tiempo Real")
 
 ## Introducción al Chat en Tiempo Real :paperclip:
 La aplicación como ya se mencionó es un **Chat en Tiempo Real**  desarrollado en JavaScript, diseñado para permitir a los usuarios comunicarse de manera rápida y sencilla. La funcionalidad principal se basa en el uso de *sockets* para garantizar el envío y recepción instantáneos de mensajes entre los usuarios.
